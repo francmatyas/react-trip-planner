@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: [header-start] min-content [header-end content-start] auto [content-end];
+}
