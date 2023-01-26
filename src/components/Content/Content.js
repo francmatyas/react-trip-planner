@@ -1,13 +1,13 @@
-import "./Content.scss"
+import "./Content.scss";
 
 import Preview from "./Preview/Preview";
 import QuickAccess from "./QuickAccess/QuickAccess";
 
-function Content() {
+function Content(props) {
   return (
     <div className="content">
-        <Preview />
-        <QuickAccess />
+      <Preview trips={props.trips} countries={props.countries}/>
+      <QuickAccess trips={props.trips} />
     </div>
   );
 }

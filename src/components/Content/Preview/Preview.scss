@@ -1,3 +1,21 @@
 .preview {
   grid-column: preview-start / preview-end;
 }
+
+.preview__button {
+  background-color: transparent;
+  color: #e6e6e6;
+  border: none;
+  cursor: pointer;
+}
+
+.preview__flags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.preview__map {
+  height: 20rem;
+  width: 32rem;
+}
