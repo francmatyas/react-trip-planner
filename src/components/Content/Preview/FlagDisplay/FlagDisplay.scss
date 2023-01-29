@@ -1,3 +1,12 @@
-.flagDisplay__flag{
-    height: 1.5rem;
+.flag-display {
+  .flag-display__title {
+  }
+
+  .flag-display__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
 }

@@ -1,21 +1,16 @@
 import "./FlagDisplay.scss";
-
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Tooltip from "react-bootstrap/Tooltip";
+import FlagItem from "./FlagItem";
 
 function FlagDisplay(props) {
   return (
-    <div className="flagDisplay">
-      <OverlayTrigger
-        placement="bottom"
-        overlay={<Tooltip>{props.name}</Tooltip>}
-      >
-        <img
-          src={props.file_url}
-          alt={props.name}
-          className="flagDisplay__flag"
-        />
-      </OverlayTrigger>
+    <div className="flag-display">
+      <span className="flag-display__title">Countries</span>
+      <div className="flag-display__container">
+      <FlagItem {...props.countries[12]} />
+      <FlagItem {...props.countries[150]} />
+      <FlagItem {...props.countries[200]} />
+      </div>
+      
     </div>
   );
 }

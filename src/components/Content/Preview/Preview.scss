@@ -1,21 +1,48 @@
 .preview {
   grid-column: preview-start / preview-end;
+
+  overflow: hidden;
+
+  .preview__header {
+    background-color: #393e46;
+    border-radius: 1rem;
+    text-align: left;
+
+    .preview__title {
+      padding: 1rem 2rem;
+      font-weight: 600;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .preview__description {
+      background-color: #31353c;
+      border-radius: 1rem;
+
+      padding: 2rem;
+    }
+
+    .preview__input{
+      width: 100%;
+      background-color: transparent;
+      border: none;
+
+    }
+  }
 }
 
 .preview__button {
   background-color: transparent;
-  color: #e6e6e6;
+  color: #eeeeee;
   border: none;
   cursor: pointer;
 }
 
 .preview__flags {
+  padding: 1rem;
+
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.preview__map {
-  height: 20rem;
-  width: 32rem;
 }

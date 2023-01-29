@@ -1,0 +1,44 @@
+.country-selector {
+  width: 24rem;
+
+  background-color: #393E46;
+    border-radius: 1rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .country-selector__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    overflow: scroll;
+
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .country-selector__row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    border: solid 1px #EEEEEE;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #EEEEEE;
+    padding: 4px;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease-in-out;
+    &:hover {
+      background-color: #EEEEEE;
+      color: #222831;
+    }
+  }
+  .country-selector__selected {
+    background-color: #EEEEEE;
+    color: #222831;
+  }
+}

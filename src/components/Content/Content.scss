@@ -2,9 +2,10 @@
   grid-row: content-start / content-end;
   padding: 2rem;
   
-  background-color: #1b263b;
-  color: #e0e1dd;
+  background-color: #222831;
+  color: #eeeeee;
 
   display: grid;
   grid-template-columns: [preview-start] auto [preview-end quicka-start] min-content [quicka-end];
+  gap: 2rem;
 }
