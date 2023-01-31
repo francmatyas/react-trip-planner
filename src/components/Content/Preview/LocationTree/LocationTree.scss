@@ -1,0 +1,51 @@
+.location-tree {
+  height: min-content;
+  background-color: #393e46;
+  border-radius: 1rem;
+
+  display: grid;
+  grid-template-rows: min-content 1fr;
+
+  .location-tree__title {
+    background-color: #393e46;
+    border-radius: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .location-tree__tree {
+    padding: 3rem 2rem;
+
+    background-color: #31353c;
+    border-radius: 1rem;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+    .location-tree__updown {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .location-tree__empty {
+      color: #757575;
+      text-align: center;
+    }
+
+    .location-tree__item {
+      display: grid;
+      grid-template-columns:min-content auto min-content min-content;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}

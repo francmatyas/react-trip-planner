@@ -19,6 +19,7 @@ function SearchBox(props) {
           value={searchText}
         />
         <button
+          className="preview__button"
           onClick={() => {
             const params = {
               q: searchText,
@@ -45,12 +46,12 @@ function SearchBox(props) {
         </button>
       </div>
 
-      <div className="search-box__results">
+      <div className="search-box__table">
         {searchResults.length === 0 ? (
           <span className="search-box__noresult">No result</span>
         ) : (
-          searchResults.map((result) => {
-            return (
+          <div className="search-box__results">
+            {searchResults.map((result) => (
               <div
                 className="search-box__item"
                 key={result.osm_id}
@@ -65,8 +66,8 @@ function SearchBox(props) {
                   {result.display_name}
                 </div>
               </div>
-            );
-          })
+            ))}
+          </div>
         )}
       </div>
     </div>

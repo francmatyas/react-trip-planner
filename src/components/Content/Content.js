@@ -6,7 +6,10 @@ import QuickAccess from "./QuickAccess/QuickAccess";
 function Content(props) {
   return (
     <div className="content">
-      <Preview trips={props.trips} countries={props.countries}/>
+      <Preview
+        title={props.trips[0].title}
+        description={props.trips[0].description}
+      />
       <QuickAccess trips={props.trips} />
     </div>
   );

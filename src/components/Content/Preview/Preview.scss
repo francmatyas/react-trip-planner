@@ -3,14 +3,20 @@
 
   overflow: hidden;
 
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
   .preview__header {
     background-color: #393e46;
     border-radius: 1rem;
     text-align: left;
+    color: #eeeeee;
 
     .preview__title {
       padding: 1rem 2rem;
       font-weight: 600;
+      font-size: 1.1rem;
 
       display: flex;
       justify-content: space-between;
@@ -23,13 +29,21 @@
       padding: 2rem;
     }
 
-    .preview__input{
+    .preview__input {
       width: 100%;
       background-color: transparent;
       border: none;
-
+      color: #eeeeee;
+      outline: none;
     }
   }
+}
+
+.preview__planner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: [planner-start] auto [planner-end] min-content;
+  gap: 2rem;
 }
 
 .preview__button {
@@ -37,6 +51,11 @@
   color: #eeeeee;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    color: #bdbdbd;
+  }
 }
 
 .preview__flags {
