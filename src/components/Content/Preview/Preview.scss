@@ -18,9 +18,16 @@
       font-weight: 600;
       font-size: 1.1rem;
 
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+
+      display: grid;
+      grid-template-columns: 1fr min-content;
+      gap: 1rem;
+
+
+      .preview__controls{
+        display: flex;
+        flex-direction: row;
+      }
     }
     .preview__description {
       background-color: #31353c;
@@ -55,6 +62,13 @@
 
   &:hover {
     color: #bdbdbd;
+  }
+}
+
+.preview__delete{
+  color: #86909C;
+  &:hover {
+    color: #d00000;
   }
 }
 

@@ -1,8 +1,8 @@
-import "./LocationTree.scss";
+import "./LocationList.scss";
 
 import { HiArrowDown, HiArrowUp, HiOutlineTrash } from "react-icons/hi2";
 
-function LocationTree(props) {
+function LocationList(props) {
   function moveUpHandler(index) {
     if (index === 0) {
       return;
@@ -32,18 +32,18 @@ function LocationTree(props) {
   }
 
   return (
-    <div className="location-tree">
-      <h2 className="location-tree__title">Plan your trip</h2>
-      <div className="location-tree__tree">
+    <div className="location-list">
+      <h2 className="location-list__title">Plan your trip</h2>
+      <div className="location-list__list">
         {props.locations.length === 0 ? (
-          <span className="location-tree__empty">
+          <span className="location-list__empty">
             Find, add place and plan your next trip.
           </span>
         ) : (
           <>
             {props.locations.map((location, index) => {
               return (
-                <div className="location-tree__item" key={location.osm_id}>
+                <div className="location-list__item" key={location.osm_id}>
                   <span>{index + 1 + "."}</span>
                   <span>{location.display_name}</span>
 
@@ -87,4 +87,4 @@ function LocationTree(props) {
   );
 }
 
-export default LocationTree;
+export default LocationList;

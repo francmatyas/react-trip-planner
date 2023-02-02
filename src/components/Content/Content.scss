@@ -9,3 +9,11 @@
   grid-template-columns: [preview-start] auto [preview-end quicka-start] min-content [quicka-end];
   gap: 2rem;
 }
+
+
+.content__button{
+  padding: 8px;
+  color: #222831;
+  border: none;
+  border-radius: 1rem;
+}

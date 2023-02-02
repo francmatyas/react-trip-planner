@@ -1,4 +1,4 @@
-.location-tree {
+.location-list {
   height: min-content;
   background-color: #393e46;
   border-radius: 1rem;
@@ -6,7 +6,7 @@
   display: grid;
   grid-template-rows: min-content 1fr;
 
-  .location-tree__title {
+  .location-list__title {
     background-color: #393e46;
     border-radius: 1rem;
 
@@ -16,7 +16,7 @@
     margin: 0;
   }
 
-  .location-tree__tree {
+  .location-list__list {
     padding: 3rem 2rem;
 
     background-color: #31353c;
@@ -29,19 +29,19 @@
     justify-content: center;
     gap: 2rem;
 
-    .location-tree__updown {
+    .location-list__updown {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
     }
 
-    .location-tree__empty {
+    .location-list__empty {
       color: #757575;
       text-align: center;
     }
 
-    .location-tree__item {
+    .location-list__item {
       display: grid;
       grid-template-columns:min-content auto min-content min-content;
       align-items: center;

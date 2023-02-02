@@ -3,6 +3,8 @@ import "./Content.scss";
 import Preview from "./Preview/Preview";
 import QuickAccess from "./QuickAccess/QuickAccess";
 
+import {HiOutlineTrash, HiOutlinePencil} from "react-icons/hi";
+
 function Content(props) {
   return (
     <div className="content">

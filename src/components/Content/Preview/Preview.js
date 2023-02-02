@@ -2,12 +2,12 @@ import "./Preview.scss";
 
 import { useState, useEffect } from "react";
 
-import { HiOutlinePencil } from "react-icons/hi2";
+import { HiOutlinePencil, HiOutlineTrash } from "react-icons/hi2";
 import { HiOutlineX } from "react-icons/hi";
 
 import MapContainer from "./MapDisplay/MapDisplay";
 import SearchBox from "./SearchBox/SearchBox";
-import LocationTree from "./LocationTree/LocationTree";
+import LocationTree from "./LocationList/LocationList";
 
 function Preview(props) {
   const [isEditing, setIsEditing] = useState(false);
@@ -40,17 +40,26 @@ function Preview(props) {
           ) : (
             title
           )}
-
-          <button
-            onClick={() => setIsEditing(!isEditing)}
-            className="preview__button"
-          >
-            {isEditing ? (
-              <HiOutlineX size={24} />
-            ) : (
-              <HiOutlinePencil size={24} />
+          <div className="preview__controls">
+            {isEditing && (
+              <button
+                onClick={() => alert("Trip deleted")}
+                className="preview__button preview__delete"
+              >
+                <HiOutlineTrash size={24} />
+              </button>
             )}
-          </button>
+            <button
+              onClick={() => setIsEditing(!isEditing)}
+              className="preview__button"
+            >
+              {isEditing ? (
+                <HiOutlineX size={24} />
+              ) : (
+                <HiOutlinePencil size={24} />
+              )}
+            </button>
+          </div>
         </div>
         <div className="preview__description">
           {isEditing ? (
@@ -58,6 +67,7 @@ function Preview(props) {
               className="preview__input"
               placeholder="Edit trip description"
               value={description}
+              onChange={(event) => setDescription(event.target.value)}
             />
           ) : (
             description

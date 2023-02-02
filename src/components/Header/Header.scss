@@ -1,26 +1,41 @@
 .header {
   grid-row: header-start / header-end;
-  height: 4rem;
+  height: 5rem;
   background-color: #212428;
 
   display: grid;
-  grid-template-columns: [title-start] min-content [title-end nav-start] auto [nav-end account-start] min-content [account-end];
+  grid-template-columns: [title-start] min-content [title-end nav-start] auto [nav-end controls-start] min-content [controls-end];
+  align-items: center;
 
   padding: 0 1rem;
 }
 
-.header__title{
+.header__title {
   grid-column: title-start / title-end;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #e6e6e6;
+  color: #eeeeee;
   padding: 1rem;
 }
 
-.header__button{
-  grid-column: account-start / account-end;
+.header__controls {
+  grid-column: controls-start / controls-end;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.header__button {
   background-color: transparent;
-  color: #e6e6e6;
+  color: #eeeeee;
   border: none;
   cursor: pointer;
+}
+
+.header__create{
+  color: #212428;
+  background-color: #eeeeee;
+  padding: 8px 1rem;
+  border-radius: 1rem;
+  font-weight: 600;
 }
