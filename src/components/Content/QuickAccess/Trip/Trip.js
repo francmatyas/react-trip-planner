@@ -1,12 +1,9 @@
 import "./Trip.scss";
 
-import { HiOutlineMagnifyingGlassCircle } from "react-icons/hi2";
-
 function Trip(props) {
   return (
-    <div className="trip" onClick={() => console.log("clicked")}>
+    <div className="trip" onClick={() => props.onInteract(props.index)}>
       {props.title}
-      <HiOutlineMagnifyingGlassCircle size={24} />
     </div>
   );
 }

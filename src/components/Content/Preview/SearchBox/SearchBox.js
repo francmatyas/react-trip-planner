@@ -34,12 +34,13 @@ function SearchBox(props) {
                 "Content-Type": "application/json",
               },
             };
-            fetch(NOMINATIM_BASE_URL + queryString, requestOptions)
-              .then((response) => response.json())
-              .then((data) => {
-                console.log(data);
-                setSearchResults(data);
-              });
+
+            searchText.length > 0 &&
+              fetch(NOMINATIM_BASE_URL + queryString, requestOptions)
+                .then((response) => response.json())
+                .then((data) => {
+                  setSearchResults(data);
+                });
           }}
         >
           <HiOutlineSearch size={24} />

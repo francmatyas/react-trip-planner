@@ -1,6 +1,6 @@
 .header {
   grid-row: header-start / header-end;
-  height: 5rem;
+  height: 4rem;
   background-color: #212428;
 
   display: grid;
@@ -30,12 +30,25 @@
   color: #eeeeee;
   border: none;
   cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.header__create{
-  color: #212428;
+.header__create {
+  background-image: url(../../assets/images/landscape3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  color: #000;
+
+  filter: brightness(0.7);
   background-color: #eeeeee;
-  padding: 8px 1rem;
   border-radius: 1rem;
   font-weight: 600;
+  font-size: 1.1rem;
+  padding: 8px 1rem;
 }

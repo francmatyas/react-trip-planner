@@ -1,18 +1,19 @@
 import "./Content.scss";
+import { useState } from "react";
 
 import Preview from "./Preview/Preview";
 import QuickAccess from "./QuickAccess/QuickAccess";
 
-import {HiOutlineTrash, HiOutlinePencil} from "react-icons/hi";
-
 function Content(props) {
+  const [trip, setTrip] = useState(props.trips[0]);
+  
   return (
     <div className="content">
-      <Preview
-        title={props.trips[0].title}
-        description={props.trips[0].description}
+      <Preview title={trip.title} description={trip.description} />
+      <QuickAccess
+        trips={props.trips}
+        onSelect={(index) => setTrip(props.trips[index])}
       />
-      <QuickAccess trips={props.trips} />
     </div>
   );
 }

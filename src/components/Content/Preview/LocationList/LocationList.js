@@ -43,9 +43,9 @@ function LocationList(props) {
           <>
             {props.locations.map((location, index) => {
               return (
-                <div className="location-list__item" key={location.osm_id}>
+                <div className="location-list__item" key={location?.osm_id}>
                   <span>{index + 1 + "."}</span>
-                  <span>{location.display_name}</span>
+                  <span>{location?.display_name}</span>
 
                   <button
                     onClick={() => deleteHandler(index)}

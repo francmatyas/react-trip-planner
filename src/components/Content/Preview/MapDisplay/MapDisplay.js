@@ -18,7 +18,7 @@ function MapDisplay(props) {
   const [lines, setLines] = useState([]);
 
   useEffect(() => {
-    if (props.locations.length <= 1) {
+    if (props.locations?.length <= 1) {
       setLines([]);
       return;
     }
@@ -52,10 +52,10 @@ function MapDisplay(props) {
             <LayerGroup>
               {props.locations.map((location) => (
                 <Marker
-                  position={[location.lat, location.lon]}
-                  key={location.osm_id}
+                  position={[location?.lat, location?.lon]}
+                  key={location?.osm_id}
                 >
-                  <Popup>{location.display_name}</Popup>
+                  <Popup>{location?.display_name}</Popup>
                 </Marker>
               ))}
             </LayerGroup>
