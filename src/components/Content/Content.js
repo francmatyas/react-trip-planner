@@ -1,18 +1,19 @@
 import "./Content.scss";
-import { useState } from "react";
 
 import Preview from "./Preview/Preview";
 import QuickAccess from "./QuickAccess/QuickAccess";
 
 function Content(props) {
-  const [trip, setTrip] = useState(props.trips[0]);
-  
   return (
     <div className="content">
-      <Preview title={trip.title} description={trip.description} />
+      <Preview
+        trip={props.trip}
+        onUpdate={props.onUpdate}
+      />
+
       <QuickAccess
         trips={props.trips}
-        onSelect={(index) => setTrip(props.trips[index])}
+        onSelect={props.onSelect}
       />
     </div>
   );

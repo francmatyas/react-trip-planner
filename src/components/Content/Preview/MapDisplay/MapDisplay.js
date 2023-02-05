@@ -24,7 +24,7 @@ function MapDisplay(props) {
     }
     const lines = [];
 
-    for (let i = 0; i < props.locations.length - 1; i++) {
+    for (let i = 0; i < props.locations?.length - 1; i++) {
       const location = [props.locations[i].lat, props.locations[i].lon];
       const nextLocation = [
         props.locations[i + 1].lat,
@@ -50,7 +50,7 @@ function MapDisplay(props) {
         <LayersControl position="topright">
           <LayersControl.Overlay checked name="Markers">
             <LayerGroup>
-              {props.locations.map((location) => (
+              {props.locations?.map((location) => (
                 <Marker
                   position={[location?.lat, location?.lon]}
                   key={location?.osm_id}

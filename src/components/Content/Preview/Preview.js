@@ -1,32 +1,49 @@
 import "./Preview.scss";
 
-import { useState } from "react";
-
 import PreviewHeader from "./PreviewHeader/PreviewHeader";
 import MapContainer from "./MapDisplay/MapDisplay";
 import SearchBox from "./SearchBox/SearchBox";
 import LocationTree from "./LocationList/LocationList";
 
 function Preview(props) {
-  const [locations, setLocations] = useState([]);
+  function titleUpdateHandler(title, description) {
+    const updatedTrip = {
+      ...props.trip,
+      title: title,
+      description: description,
+    };
+    props.onUpdate(updatedTrip);
+  }
+
+  function listChangeHandler(updatedLocations) {
+    const updatedTrip = {
+      ...props.trip,
+      locations: updatedLocations,
+    };
+    props.onUpdate(updatedTrip);
+  }
 
   function searchSelectHandler(country) {
-    setLocations([...locations, country]);
+    const updatedTrip = {
+      ...props.trip,
+      locations: [...props.trip.locations, country],
+    };
+    props.onUpdate(updatedTrip);
   }
 
   return (
     <div className="preview">
-      <PreviewHeader  {...props} />
+      <PreviewHeader {...props.trip} onTitleUpdate={titleUpdateHandler} />
 
       <div className="preview__planner">
         <LocationTree
-          locations={locations}
-          onListChange={(updatedList) => setLocations(updatedList)}
+          locations={props.trip.locations}
+          onListChange={listChangeHandler}
         />
         <SearchBox onSearchSelect={searchSelectHandler} />
       </div>
 
-      <MapContainer locations={locations} />
+      <MapContainer locations={props.trip.locations} />
     </div>
   );
 }

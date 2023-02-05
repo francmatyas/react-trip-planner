@@ -1,5 +1,5 @@
 import "./PreviewHeader.scss";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { TextareaAutosize } from "@mui/material";
 
@@ -15,20 +15,26 @@ function PreviewHeader(props) {
   const [showModal, setShowModal] = useState(false);
   const [showSnackbar, setShowSnackbar] = useState(false);
 
-  const title = props.title;
-  const description = props.description;
-  //const [title, setTitle] = useState(props.title);
-  //const [description, setDescription] = useState(props.description);
+  const [title, setTitle] = useState(props.title);
+  const [description, setDescription] = useState(props.description);
 
-  function setIsEditingHandler() {
-    setIsEditing(!isEditing);
+  useEffect(() => {
+    setTitle(props.title);
+    setDescription(props.description);
+  }, [props.title, props.description]);
+
+  function editHandler() {
+    if (isEditing) {
+      props.onTitleUpdate(title, description);
+    }
+    setIsEditing(false);
   }
 
   return (
-    <ClickAwayListener onClickAway={() => setIsEditing(false)}>
+    <ClickAwayListener onClickAway={editHandler}>
       <div
         onDoubleClick={() => {
-          !isEditing && setIsEditing(!isEditing);
+          !isEditing && setIsEditing(true);
         }}
         className="preview__header"
       >
@@ -39,7 +45,7 @@ function PreviewHeader(props) {
               type="text"
               placeholder="Edit trip title"
               value={title}
-             /*  onChange={(event) => setTitle(event.target.value)} */
+              onChange={(event) => setTitle(event.target.value)}
             />
           ) : (
             title
@@ -53,7 +59,10 @@ function PreviewHeader(props) {
                 <HiOutlineTrash size={24} />
               </button>
             )}
-            <button onClick={setIsEditingHandler} className="preview__button">
+            <button
+              onClick={isEditing ? editHandler : () => setIsEditing(true)}
+              className="preview__button"
+            >
               {isEditing ? (
                 <HiOutlineX size={24} />
               ) : (
@@ -68,7 +77,7 @@ function PreviewHeader(props) {
               className="preview__input"
               placeholder="Edit trip description"
               value={description}
-              /* onChange={(event) => setDescription(event.target.value)} */
+              onChange={(event) => setDescription(event.target.value)}
             />
           ) : (
             description

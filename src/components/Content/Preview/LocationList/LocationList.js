@@ -35,13 +35,13 @@ function LocationList(props) {
     <div className="location-list">
       <h2 className="location-list__title">Plan your trip</h2>
       <div className="location-list__list">
-        {props.locations.length === 0 ? (
+        {props.locations === undefined || props.locations.length === 0 ? (
           <span className="location-list__empty">
             Find, add place and plan your next trip.
           </span>
         ) : (
           <>
-            {props.locations.map((location, index) => {
+            {props.locations?.map((location, index) => {
               return (
                 <div className="location-list__item" key={location?.osm_id}>
                   <span>{index + 1 + "."}</span>

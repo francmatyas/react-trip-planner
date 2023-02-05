@@ -8,10 +8,15 @@ function QuickAccess(props) {
       <h2 className="quick-access__title">Quick Access</h2>
       <div className="quick-access__trips">
         {props.trips.map((trip, index) => (
-          <Trip {...trip} key={trip.id} index={index} onInteract={props.onSelect}/>
+          <Trip
+            {...trip}
+            key={trip.id + index}
+            index={index}
+            onInteract={props.onSelect}
+          />
         ))}
       </div>
-    </div> 
+    </div>
   );
 }
 
