@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import Header from "./components/Header/Header";
 import Content from "./components/Content/Content";
+import Login from "./components/Custom/Login/Login";
 
 import tripsDUMMY from "./data/TripsDUMMY.json";
 
@@ -17,8 +18,22 @@ const darkTheme = createTheme({
 });
 
 function App() {
-  const [trips, setTrips] = useState(tripsDUMMY);
+  const [accounts, setAccounts] = useState(tripsDUMMY);
+  const [trips, setTrips] = useState([]);
   const [selectedTrip, setSelectedTrip] = useState(0);
+
+  function loginHandler(email, password) {
+    const account = accounts.find((account) => {
+      return account.email === email && account.password === password;
+    });
+
+    if (account) {
+      setTrips(account.trips);
+      setSelectedTrip(0);
+    } else {
+      alert("Invalid credentials");
+    }
+  }
 
   function createTripHandler(title) {
     const newTrip = {
@@ -54,13 +69,19 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <div className="App">
-        <Header onCreate={createTripHandler} />
-        <Content
-          trips={trips}
-          trip={trips[selectedTrip]}
-          onSelect={(index) => setSelectedTrip(index)}
-          onUpdate={updateTripHandler}
-        />
+        {trips.length === 0 ? (
+          <Login onLogin={loginHandler} />
+        ) : (
+          <>
+            <Header onCreate={createTripHandler} />
+            <Content
+              trips={trips}
+              trip={trips[selectedTrip]}
+              onSelect={(index) => setSelectedTrip(index)}
+              onUpdate={updateTripHandler}
+            />
+          </>
+        )}
       </div>
     </ThemeProvider>
   );

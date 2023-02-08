@@ -2,6 +2,7 @@ import "./Content.scss";
 
 import Preview from "./Preview/Preview";
 import QuickAccess from "./QuickAccess/QuickAccess";
+import Login from "../Custom/Login/Login";
 
 function Content(props) {
   return (
