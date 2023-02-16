@@ -77,6 +77,7 @@ function App() {
             <Content
               trips={trips}
               trip={trips[selectedTrip]}
+              selectedTrip={selectedTrip}
               onSelect={(index) => setSelectedTrip(index)}
               onUpdate={updateTripHandler}
             />

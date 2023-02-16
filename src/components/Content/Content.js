@@ -15,6 +15,7 @@ function Content(props) {
       <QuickAccess
         trips={props.trips}
         onSelect={props.onSelect}
+        selectedTrip={props.selectedTrip}
       />
     </div>
   );

@@ -10,9 +10,10 @@ function QuickAccess(props) {
         {props.trips.map((trip, index) => (
           <Trip
             {...trip}
+            selectedTrip={props.selectedTrip}
             key={trip.id + index}
             index={index}
-            onInteract={props.onSelect}
+            onClick={props.onSelect}
           />
         ))}
       </div>

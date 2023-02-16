@@ -2,7 +2,12 @@ import "./Trip.scss";
 
 function Trip(props) {
   return (
-    <div className="trip" onClick={() => props.onInteract(props.index)}>
+    <div
+      className={
+        props.index === props.selectedTrip ? "trip trip__selected" : "trip"
+      }
+      onClick={() => props.onClick(props.index)}
+    >
       {props.title}
     </div>
   );
