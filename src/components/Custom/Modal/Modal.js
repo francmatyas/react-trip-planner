@@ -1,5 +1,6 @@
 import { Modal, Button, Box, Typography, Input } from "@mui/material";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Trip } from "../../../script/TripUtils";
 
 export function DeleteModal(props) {
   const style = {
@@ -70,6 +71,27 @@ export function CreateModal(props) {
 
   const [title, setTitle] = useState("");
 
+  function createTrip() {
+    if (title.length > 0) {
+      const trip = Trip.fromTitle(title);
+      setTitle("");
+      props.onCreate(trip);
+      props.onHide(false);
+    }
+  }
+
+  useEffect(() => {
+    const keyDownHandler = (event) => {
+      if (event.key === "Enter") {
+        createTrip();
+      }
+    };
+    document.addEventListener("keydown", keyDownHandler);
+    return () => {
+      document.removeEventListener("keydown", keyDownHandler);
+    };
+  }, [title]);
+
   return (
     <Modal
       open={props.show}
@@ -105,14 +127,7 @@ export function CreateModal(props) {
           Cancel
         </Button>
 
-        <Button
-          onClick={() => {
-            props.onCreate(title);
-            props.onHide(false);
-          }}
-          variant="contained"
-          color="success"
-        >
+        <Button onClick={createTrip} variant="contained" color="success">
           Create
         </Button>
       </Box>

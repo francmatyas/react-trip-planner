@@ -11,7 +11,7 @@ function QuickAccess(props) {
           <Trip
             {...trip}
             selectedTrip={props.selectedTrip}
-            key={trip.id + index}
+            key={trip.uuid}
             index={index}
             onClick={props.onSelect}
           />
