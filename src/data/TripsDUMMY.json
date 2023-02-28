@@ -1,37 +1,170 @@
 [
   {
-    "uuid": "0",
+    "uuid": "060e2f21-3a17-471a-b63d-e3b9659b8e2a",
     "email": "franc.matyas@gmail.com",
     "password": "123456",
     "trips": [
       {
-        "uuid": "0",
-        "title": "The 10 Best Places to Visit in the USA",
-        "description": "The United States of America is a large country in North America, often referred to as the 'USA', the 'US', the 'United States', 'America', or simply 'the States'.",
-        "locations": []
+        "uuid": "14554e43-17d7-43fb-b1ff-6ff261941eea",
+        "title": "Road trip around Scandanavia",
+        "description": "Road trip around Scandanavia",
+        "locations": [
+          {
+            "lat": "50.0874654",
+            "lon": "14.4212535",
+            "display_name": "Praha, Česko",
+            "address": {
+              "city": "Hlavní město Praha",
+              "country": "Česko",
+              "country_code": "cz"
+            },
+            "place_id": "307933565",
+            "osm_id": "435514"
+          },
+          {
+            "lat": "54.516728",
+            "lon": "13.644119",
+            "display_name": "Sassnitz, Německo",
+            "address": {
+              "town": "Sassnitz",
+              "country": "Německo",
+              "country_code": "de"
+            },
+            "place_id": "308025087",
+            "osm_id": "1437541"
+          },
+          {
+            "lat": "55.4329849",
+            "lon": "13.8196555",
+            "display_name": "Ystad, Švédsko",
+            "address": {
+              "town": "Ystad",
+              "country": "Švédsko",
+              "country_code": "se"
+            },
+            "place_id": "309531182",
+            "osm_id": "27374565"
+          },
+          {
+            "lat": "59.9133301",
+            "lon": "10.7389701",
+            "display_name": "Oslo, Norsko",
+            "address": {
+              "city": "Oslo",
+              "country": "Norsko",
+              "country_code": "no"
+            },
+            "place_id": "307771629",
+            "osm_id": "406091"
+          },
+          {
+            "lat": "59.3251172",
+            "lon": "18.0710935",
+            "display_name": "Stockholm, Švédsko",
+            "address": {
+              "city": "Stockholm",
+              "country": "Švédsko",
+              "country_code": "se"
+            },
+            "place_id": "309769240",
+            "osm_id": "25929985"
+          },
+          {
+            "lat": "68.28988385",
+            "lon": "17.086538711321808",
+            "display_name": "Narvik, Norsko",
+            "address": {
+              "town": "Narvik",
+              "country": "Norsko",
+              "country_code": "no"
+            },
+            "place_id": "309007609",
+            "osm_id": "10143373"
+          },
+          {
+            "lat": "60.1674881",
+            "lon": "24.9427473",
+            "display_name": "Helsinky, Finsko",
+            "address": {
+              "city": "Helsinky",
+              "country": "Finsko",
+              "country_code": "fi"
+            },
+            "place_id": "307466317",
+            "osm_id": "34914"
+          },
+          {
+            "lat": "59.4372155",
+            "lon": "24.7453688",
+            "display_name": "Tallinn, Estonsko",
+            "address": {
+              "city": "Tallinn",
+              "country": "Estonsko",
+              "country_code": "ee"
+            },
+            "place_id": "308158366",
+            "osm_id": "2164745"
+          },
+          {
+            "lat": "56.9493977",
+            "lon": "24.1051846",
+            "display_name": "Riga, Lotyšsko",
+            "address": {
+              "city": "Riga",
+              "country": "Lotyšsko",
+              "country_code": "lv"
+            },
+            "place_id": "309294831",
+            "osm_id": "13048688"
+          },
+          {
+            "lat": "54.6870458",
+            "lon": "25.2829111",
+            "display_name": "Vilno, Litva",
+            "address": {
+              "city": "Vilno",
+              "country": "Litva",
+              "country_code": "lt"
+            },
+            "place_id": "308035893",
+            "osm_id": "1529146"
+          },
+          {
+            "lat": "50.0874654",
+            "lon": "14.4212535",
+            "display_name": "Praha, Česko",
+            "address": {
+              "city": "Hlavní město Praha",
+              "country": "Česko",
+              "country_code": "cz"
+            },
+            "place_id": "307933565",
+            "osm_id": "435514"
+          }
+        ]
       },
       {
-        "uuid": "1",
-        "title": "Test",
-        "description": "Test",
+        "uuid": "e9bf1147-2127-49f1-93e1-43e8dccc11a7",
+        "title": "In the footsteps of the Roman Empire",
+        "description": "Road trip around Mediterranean",
         "locations": []
       }
     ]
   },
 
   {
-    "uuid": "1",
+    "uuid": "b47b67d3-c267-4981-8950-6387e526e08d",
     "email": "test@gmail.com",
     "password": "123456",
     "trips": [
       {
-        "uuid": "0",
+        "uuid": "faeaa13e-556a-4247-a0b6-87bbae341f67",
         "title": "The 10 Best Places to Visit in the USA",
         "description": "The United States of America is a large country in North America, often referred to as the 'USA', the 'US', the 'United States', 'America', or simply 'the States'.",
         "locations": []
       },
       {
-        "uuid": "1",
+        "uuid": "95b25d99-6636-454f-9435-4785b52167de",
         "title": "Test",
         "description": "Test trip",
         "locations": []

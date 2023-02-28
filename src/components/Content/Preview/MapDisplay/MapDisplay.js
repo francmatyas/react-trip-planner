@@ -1,4 +1,5 @@
 import "./MapDisplay.scss";
+import { v4 as uuidv4 } from "uuid";
 
 import {
   MapContainer,
@@ -53,7 +54,7 @@ function MapDisplay(props) {
               {props.locations?.map((location) => (
                 <Marker
                   position={[location?.lat, location?.lon]}
-                  key={location?.osm_id}
+                  key={uuidv4()}
                 >
                   <Popup>{location?.display_name}</Popup>
                 </Marker>

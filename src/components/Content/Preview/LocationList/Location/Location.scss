@@ -1,0 +1,6 @@
+.location {
+  display: grid;
+  grid-template-columns: min-content auto min-content min-content min-content min-content;
+  align-items: center;
+  gap: 1rem;
+}

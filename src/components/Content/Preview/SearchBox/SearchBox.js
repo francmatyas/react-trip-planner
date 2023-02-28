@@ -1,6 +1,7 @@
 import "./SearchBox.scss";
 import { useState, useEffect, useRef } from "react";
 import { ClickAwayListener } from "@mui/material";
+import { Location } from "../../../../script/TripUtils";
 
 import { HiOutlineSearch, HiOutlineLocationMarker } from "react-icons/hi";
 
@@ -80,7 +81,15 @@ function SearchBox(props) {
                   className="search-box__item"
                   key={result.osm_id}
                   onClick={() => {
-                    props.onSearchSelect(result);
+                    const location = new Location(
+                      result.lat,
+                      result.lon,
+                      result.display_name,
+                      result.address,
+                      result.place_id,
+                      result.osm_id
+                    );
+                    props.onSearchSelect(location);
                     setSearchResults([]);
                     setSearchText("");
                   }}

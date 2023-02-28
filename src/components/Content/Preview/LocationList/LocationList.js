@@ -1,6 +1,5 @@
 import "./LocationList.scss";
-
-import { HiArrowDown, HiArrowUp, HiOutlineTrash } from "react-icons/hi2";
+import Location from "./Location/Location";
 
 function LocationList(props) {
   function moveUpHandler(index) {
@@ -43,41 +42,14 @@ function LocationList(props) {
           <>
             {props.locations?.map((location, index) => {
               return (
-                <div className="location-list__item" key={location?.osm_id}>
-                  <span>{index + 1 + "."}</span>
-                  <span>{location?.display_name}</span>
-
-                  <button
-                    onClick={() => deleteHandler(index)}
-                    className="preview__button"
-                  >
-                    <HiOutlineTrash size={24} />
-                  </button>
-                  {props.locations.length > 1 && (
-                    <div>
-                      {index === 0 ? (
-                        <></>
-                      ) : (
-                        <button
-                          onClick={() => moveUpHandler(index)}
-                          className="preview__button"
-                        >
-                          <HiArrowUp size={16} />
-                        </button>
-                      )}
-                      {index === props.locations.length - 1 ? (
-                        <></>
-                      ) : (
-                        <button
-                          onClick={() => moveDownHandler(index)}
-                          className="preview__button"
-                        >
-                          <HiArrowDown size={16} />
-                        </button>
-                      )}
-                    </div>
-                  )}
-                </div>
+                <Location
+                  count={props.locations.length}
+                  location={location}
+                  index={index}
+                  onMoveUp={moveUpHandler}
+                  onMoveDown={moveDownHandler}
+                  onDelete={deleteHandler}
+                />
               );
             })}
           </>

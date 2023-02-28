@@ -19,13 +19,14 @@ const darkTheme = createTheme({
 });
 
 function App() {
-  const [accounts, setAccounts] = useState(tripsDUMMY.map((account) => Account.fromObject(account)));
+  const [accounts, setAccounts] = useState(
+    tripsDUMMY.map((account) => Account.fromObject(account))
+  );
 
   //const [trips, setTrips] = useState([]);
   const [trips, setTrips] = useState(accounts[0].trips);
   const [selectedTrip, setSelectedTrip] = useState(0);
 
-  console.log(accounts)
   console.log(trips);
 
   function loginHandler(email, password) {
@@ -49,7 +50,6 @@ function App() {
   }
 
   function updateTripHandler(updatedTrip) {
-    console.log(updatedTrip);
     setTrips((prevTrips) => {
       const newTrips = [...prevTrips];
       newTrips[selectedTrip] = updatedTrip;
