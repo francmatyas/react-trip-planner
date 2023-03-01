@@ -3,4 +3,36 @@
   grid-template-columns: min-content auto min-content min-content min-content min-content;
   align-items: center;
   gap: 1rem;
+  row-gap: 4px;
+
+  .location__note__edit {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+
+    display: flex;
+    flex-direction: column;
+
+    input{
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: #757575;
+      border-bottom: solid 1px white;
+    }
+
+    .location__note__chars {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 0.8rem;
+      color: #757575;
+    }
+  }
+
+  .location__note {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+
+    color: #757575;
+    font-size: 0.8rem;
+  }
 }

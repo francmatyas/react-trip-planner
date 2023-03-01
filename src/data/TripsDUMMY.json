@@ -19,7 +19,8 @@
               "country_code": "cz"
             },
             "place_id": "307933565",
-            "osm_id": "435514"
+            "osm_id": "435514",
+            "note": "Praha"
           },
           {
             "lat": "54.516728",
@@ -31,7 +32,8 @@
               "country_code": "de"
             },
             "place_id": "308025087",
-            "osm_id": "1437541"
+            "osm_id": "1437541",
+            "note": "Ferry from Germany to Sweden"
           },
           {
             "lat": "55.4329849",
@@ -43,7 +45,8 @@
               "country_code": "se"
             },
             "place_id": "309531182",
-            "osm_id": "27374565"
+            "osm_id": "27374565",
+            "note": ""
           },
           {
             "lat": "59.9133301",
@@ -55,7 +58,8 @@
               "country_code": "no"
             },
             "place_id": "307771629",
-            "osm_id": "406091"
+            "osm_id": "406091",
+            "note": ""
           },
           {
             "lat": "59.3251172",
@@ -67,7 +71,8 @@
               "country_code": "se"
             },
             "place_id": "309769240",
-            "osm_id": "25929985"
+            "osm_id": "25929985",
+            "note": ""
           },
           {
             "lat": "68.28988385",
@@ -79,7 +84,8 @@
               "country_code": "no"
             },
             "place_id": "309007609",
-            "osm_id": "10143373"
+            "osm_id": "10143373",
+            "note": "Town behind the polar circle"
           },
           {
             "lat": "60.1674881",
@@ -91,7 +97,8 @@
               "country_code": "fi"
             },
             "place_id": "307466317",
-            "osm_id": "34914"
+            "osm_id": "34914",
+            "note": "Ferry from Finland to Estonia"
           },
           {
             "lat": "59.4372155",
@@ -103,7 +110,8 @@
               "country_code": "ee"
             },
             "place_id": "308158366",
-            "osm_id": "2164745"
+            "osm_id": "2164745",
+            "note": ""
           },
           {
             "lat": "56.9493977",
@@ -115,7 +123,8 @@
               "country_code": "lv"
             },
             "place_id": "309294831",
-            "osm_id": "13048688"
+            "osm_id": "13048688",
+            "note": ""
           },
           {
             "lat": "54.6870458",
@@ -127,7 +136,8 @@
               "country_code": "lt"
             },
             "place_id": "308035893",
-            "osm_id": "1529146"
+            "osm_id": "1529146",
+            "note": ""
           },
           {
             "lat": "50.0874654",
@@ -139,7 +149,8 @@
               "country_code": "cz"
             },
             "place_id": "307933565",
-            "osm_id": "435514"
+            "osm_id": "435514",
+            "note": ""
           }
         ]
       },

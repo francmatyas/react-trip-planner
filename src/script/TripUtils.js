@@ -32,6 +32,7 @@ export class Location {
   address;
   place_id;
   osm_id;
+  note;
 
   #getName(address, display_name) {
     const country = address.country;
@@ -57,5 +58,6 @@ export class Location {
     this.address = address;
     this.place_id = place_id;
     this.osm_id = osm_id;
+    this.note = "";
   }
 }

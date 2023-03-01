@@ -1,5 +1,6 @@
 import "./LocationList.scss";
 import Location from "./Location/Location";
+import { v4 as uuidv4 } from "uuid";
 
 function LocationList(props) {
   function moveUpHandler(index) {
@@ -30,6 +31,12 @@ function LocationList(props) {
     props.onListChange(updatedList);
   }
 
+  function onListChangeHandler(index, value) {
+    const updatedList = [...props.locations];
+    updatedList[index] = value;
+    props.onListChange(updatedList);
+  }
+
   return (
     <div className="location-list">
       <h2 className="location-list__title">Plan your trip</h2>
@@ -43,12 +50,14 @@ function LocationList(props) {
             {props.locations?.map((location, index) => {
               return (
                 <Location
+                  key={uuidv4()}
                   count={props.locations.length}
                   location={location}
                   index={index}
                   onMoveUp={moveUpHandler}
                   onMoveDown={moveDownHandler}
                   onDelete={deleteHandler}
+                  onNoteChange={onListChangeHandler}
                 />
               );
             })}
