@@ -1,6 +1,6 @@
 import "./Location.scss";
 import { Tooltip } from "@mui/material";
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { ClickAwayListener } from "@mui/base";
 import LocationTags from "./LocationTags/LocationTags";
 
@@ -64,10 +64,10 @@ function Location(props) {
         </button>
       </Tooltip>
 
-      <Tooltip title="Delete">
+      <Tooltip title="Delete location">
         <button
           onClick={() => props.onDelete(index)}
-          className="preview__button"
+          className="preview__button preview__delete"
         >
           <HiOutlineTrash size={24} />
         </button>

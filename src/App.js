@@ -5,6 +5,7 @@ import { Account } from "./script/AccountUtils";
 import Header from "./components/Header/Header";
 import Content from "./components/Content/Content";
 import Login from "./components/Custom/Login/Login";
+import Footer from "./components/Footer/Footer";
 
 import tripsDUMMY from "./data/TripsDUMMY.json";
 
@@ -80,6 +81,7 @@ function App() {
             onSelect={(index) => setSelectedTrip(index)}
             onUpdate={updateTripHandler}
           />
+          <Footer/>
         </>
         {/*  )} */}
       </div>

@@ -15,7 +15,8 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: #eeeeee;
-  padding: 1rem;
+  margin: 0;
+  padding: 0 1rem;
 }
 
 .header__controls {
@@ -39,9 +40,9 @@
 
 .header__create {
   background-image: url(../../assets/images/landscape3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   color: #000;
 
