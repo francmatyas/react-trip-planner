@@ -4,7 +4,6 @@ import PreviewHeader from "./PreviewHeader/PreviewHeader";
 import MapContainer from "./MapDisplay/MapDisplay";
 import SearchBox from "./SearchBox/SearchBox";
 import LocationTree from "./LocationList/LocationList";
-import LocationTags from "./LocationList/LocationTags/LocationTags";
 
 function Preview(props) {
   function titleUpdateHandler(title, description) {
@@ -43,9 +42,6 @@ function Preview(props) {
         />
         <SearchBox onSearchSelect={searchSelectHandler} />
       </div>
-
-      <LocationTags />
-
       <MapContainer locations={props.trip.locations} />
     </div>
   );

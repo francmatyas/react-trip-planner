@@ -57,7 +57,7 @@ function LocationList(props) {
                   onMoveUp={moveUpHandler}
                   onMoveDown={moveDownHandler}
                   onDelete={deleteHandler}
-                  onNoteChange={onListChangeHandler}
+                  onListChange={onListChangeHandler}
                 />
               );
             })}

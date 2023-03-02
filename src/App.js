@@ -1,5 +1,4 @@
 import "./App.scss";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { Account } from "./script/AccountUtils";
 

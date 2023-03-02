@@ -20,7 +20,14 @@
             },
             "place_id": "307933565",
             "osm_id": "435514",
-            "note": "Praha"
+            "note": "Praha",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "54.516728",
@@ -33,7 +40,14 @@
             },
             "place_id": "308025087",
             "osm_id": "1437541",
-            "note": "Ferry from Germany to Sweden"
+            "note": "Ferry from Germany to Sweden",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "55.4329849",
@@ -46,7 +60,14 @@
             },
             "place_id": "309531182",
             "osm_id": "27374565",
-            "note": ""
+            "note": "",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "59.9133301",
@@ -59,7 +80,14 @@
             },
             "place_id": "307771629",
             "osm_id": "406091",
-            "note": ""
+            "note": "",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "59.3251172",
@@ -72,7 +100,14 @@
             },
             "place_id": "309769240",
             "osm_id": "25929985",
-            "note": ""
+            "note": "",
+            "tags": {
+              "adventure": true,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "68.28988385",
@@ -85,7 +120,14 @@
             },
             "place_id": "309007609",
             "osm_id": "10143373",
-            "note": "Town behind the polar circle"
+            "note": "Town behind the polar circle",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "60.1674881",
@@ -98,7 +140,14 @@
             },
             "place_id": "307466317",
             "osm_id": "34914",
-            "note": "Ferry from Finland to Estonia"
+            "note": "Ferry from Finland to Estonia",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "59.4372155",
@@ -111,7 +160,14 @@
             },
             "place_id": "308158366",
             "osm_id": "2164745",
-            "note": ""
+            "note": "",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "56.9493977",
@@ -124,7 +180,14 @@
             },
             "place_id": "309294831",
             "osm_id": "13048688",
-            "note": ""
+            "note": "",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "54.6870458",
@@ -137,7 +200,14 @@
             },
             "place_id": "308035893",
             "osm_id": "1529146",
-            "note": ""
+            "note": "",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           },
           {
             "lat": "50.0874654",
@@ -150,7 +220,14 @@
             },
             "place_id": "307933565",
             "osm_id": "435514",
-            "note": ""
+            "note": "",
+            "tags": {
+              "adventure": false,
+              "hotel": false,
+              "food": false,
+              "photo": false,
+              "nature": false
+            }
           }
         ]
       },

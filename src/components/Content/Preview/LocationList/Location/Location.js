@@ -1,7 +1,8 @@
 import "./Location.scss";
 import { Tooltip } from "@mui/material";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { ClickAwayListener } from "@mui/base";
+import LocationTags from "./LocationTags/LocationTags";
 
 import {
   HiArrowDown,
@@ -18,16 +19,21 @@ function Location(props) {
   const [tagEdit, setTagEdit] = useState(false);
   const [noteEdit, setNoteEdit] = useState(false);
   const [note, setNote] = useState(location.note);
+  const [tags, setTags] = useState(location.tags);
 
   const noteMaxLength = 50;
 
   function noteEditHandler() {
     setNoteEdit(false);
 
-    props.onNoteChange(index, {
+    props.onListChange(index, {
       ...location,
       note: note,
     });
+  }
+
+  function tagsEditHandler(newTags) {
+    props.onListChange(index, { ...location, tags: newTags });
   }
 
   return (
@@ -124,8 +130,14 @@ function Location(props) {
           <span>{note}</span>
         </div>
       )}
+
+      <LocationTags
+        show={tagEdit}
+        onHide={() => setTagEdit(false)}
+        onTagsEdit={tagsEditHandler}
+        tags={tags}
+      />
     </div>
   );
 }
-
 export default Location;
