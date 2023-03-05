@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { TextareaAutosize, Tooltip } from "@mui/material";
 
 import { HiOutlinePencil, HiOutlineTrash } from "react-icons/hi2";
-import { HiOutlineX } from "react-icons/hi";
+import { HiOutlineCheck } from "react-icons/hi";
 
 import { DeleteModal } from "../../../Custom/Modal/Modal";
 import { DeleteSnackbar } from "../../../Custom/Snackbar/Snackbar";
@@ -61,13 +61,13 @@ function PreviewHeader(props) {
                 </button>
               </Tooltip>
             )}
-            <Tooltip title={isEditing ? "Cancel" : "Edit"}>
+            <Tooltip title={isEditing ? "Confirm" : "Edit"}>
               <button
                 onClick={isEditing ? editHandler : () => setIsEditing(true)}
                 className="preview__button"
               >
                 {isEditing ? (
-                  <HiOutlineX size={24} />
+                  <HiOutlineCheck size={24} />
                 ) : (
                   <HiOutlinePencil size={24} />
                 )}
