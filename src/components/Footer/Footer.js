@@ -4,7 +4,12 @@ function Footer() {
   return (
     <div id="footer">
       <div id="footer__demo">
-        <span>This is only demo application created by <a href="https://www.francmatyas.com/">Matyáš Franc</a></span>
+        <address>
+          This is demo application created by{" "}
+          <a rel="author" href="https://www.francmatyas.com/">
+            Matyáš Franc
+          </a>
+        </address>
       </div>
     </div>
   );

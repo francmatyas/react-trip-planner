@@ -1,0 +1,36 @@
+.preview__header {
+  background-color: #393e46;
+  border-radius: 1rem;
+  text-align: left;
+  color: #eeeeee;
+
+  .preview__title {
+    height: 4rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    gap: 1rem;
+
+    .preview__controls {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .preview__description {
+    background-color: #31353c;
+    border-radius: 1rem;
+
+    padding: 2rem;
+  }
+
+  .preview__input {
+    width: 100%;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    color: #eeeeee;
+  }
+}

@@ -1,6 +1,7 @@
 import "./LocationTags.scss";
 import { Tooltip } from "@mui/material";
 import { ClickAwayListener } from "@mui/base";
+import { useState } from "react";
 
 import {
   MdOutlineSailing,
@@ -12,22 +13,29 @@ import {
 import { TbMountain } from "react-icons/tb";
 
 function LocationTags(props) {
+  const [tags, setTags] = useState(props.tags);
+
   if (props.show) {
     return (
-      <ClickAwayListener onClickAway={() => props.onHide()}>
+      <ClickAwayListener
+        onClickAway={() => {
+          props.onTagsEdit(tags);
+          props.onHide();
+        }}
+      >
         <div id="location-tags">
           <span id="location-tags__header">Click to select</span>
           <div id="location-tags__container">
             <Tooltip title="Adventure">
               <button
                 onClick={() => {
-                  props.onTagsEdit({
-                    ...props.tags,
-                    adventure: !props.tags.adventure,
+                  setTags({
+                    ...tags,
+                    adventure: !tags.adventure,
                   });
                 }}
                 className={
-                  props.tags.adventure
+                  tags.adventure
                     ? "location-tags__tag location-tags__tag--active"
                     : "location-tags__tag"
                 }
@@ -38,13 +46,13 @@ function LocationTags(props) {
             <Tooltip title="Food">
               <button
                 onClick={() => {
-                  props.onTagsEdit({
-                    ...props.tags,
-                    food: !props.tags.food,
+                  setTags({
+                    ...tags,
+                    food: !tags.food,
                   });
                 }}
                 className={
-                  props.tags.food
+                  tags.food
                     ? "location-tags__tag location-tags__tag--active"
                     : "location-tags__tag"
                 }
@@ -55,13 +63,13 @@ function LocationTags(props) {
             <Tooltip title="Hotel">
               <button
                 onClick={() => {
-                  props.onTagsEdit({
-                    ...props.tags,
-                    hotel: !props.tags.hotel,
+                  setTags({
+                    ...tags,
+                    hotel: !tags.hotel,
                   });
                 }}
                 className={
-                  props.tags.hotel
+                  tags.hotel
                     ? "location-tags__tag location-tags__tag--active"
                     : "location-tags__tag"
                 }
@@ -72,13 +80,13 @@ function LocationTags(props) {
             <Tooltip title="Photo">
               <button
                 onClick={() => {
-                  props.onTagsEdit({
-                    ...props.tags,
-                    photo: !props.tags.photo,
+                  setTags({
+                    ...tags,
+                    photo: !tags.photo,
                   });
                 }}
                 className={
-                  props.tags.photo
+                  tags.photo
                     ? "location-tags__tag location-tags__tag--active"
                     : "location-tags__tag"
                 }
@@ -89,13 +97,13 @@ function LocationTags(props) {
             <Tooltip title="Nature">
               <button
                 onClick={() => {
-                  props.onTagsEdit({
-                    ...props.tags,
-                    nature: !props.tags.nature,
+                  setTags({
+                    ...tags,
+                    nature: !tags.nature,
                   });
                 }}
                 className={
-                  props.tags.nature
+                  tags.nature
                     ? "location-tags__tag location-tags__tag--active"
                     : "location-tags__tag"
                 }

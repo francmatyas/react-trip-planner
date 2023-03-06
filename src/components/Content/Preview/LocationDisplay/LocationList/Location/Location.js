@@ -19,7 +19,6 @@ function Location(props) {
   const [tagEdit, setTagEdit] = useState(false);
   const [noteEdit, setNoteEdit] = useState(false);
   const [note, setNote] = useState(location.note);
-  const [tags, setTags] = useState(location.tags);
 
   const noteMaxLength = 50;
 
@@ -135,7 +134,7 @@ function Location(props) {
         show={tagEdit}
         onHide={() => setTagEdit(false)}
         onTagsEdit={tagsEditHandler}
-        tags={tags}
+        tags={location.tags}
       />
     </div>
   );
