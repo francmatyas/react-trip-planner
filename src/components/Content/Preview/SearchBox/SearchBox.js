@@ -67,9 +67,9 @@ function SearchBox(props) {
             value={searchText}
           />
           <Tooltip title="Search">
-          <button className="preview__button" onClick={searchHandler}>
-            <HiOutlineSearch size={24} />
-          </button>
+            <button className="preview__button" onClick={searchHandler}>
+              <HiOutlineSearch size={24} />
+            </button>
           </Tooltip>
         </div>
 

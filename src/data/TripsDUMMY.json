@@ -27,7 +27,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-06-18"
           },
           {
             "lat": "54.516728",
@@ -47,7 +48,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-06-19"
           },
           {
             "lat": "55.4329849",
@@ -67,7 +69,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-06-19"
           },
           {
             "lat": "59.9133301",
@@ -87,7 +90,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-06-21"
           },
           {
             "lat": "59.3251172",
@@ -107,7 +111,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-06-25"
           },
           {
             "lat": "68.28988385",
@@ -127,7 +132,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-06-30"
           },
           {
             "lat": "60.1674881",
@@ -147,7 +153,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-07-14"
           },
           {
             "lat": "59.4372155",
@@ -167,7 +174,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-07-14"
           },
           {
             "lat": "56.9493977",
@@ -187,12 +195,13 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-07-18"
           },
           {
             "lat": "54.6870458",
             "lon": "25.2829111",
-            "display_name": "Vilno, Litva",
+            "display_name": "Vilnius, Litva",
             "address": {
               "city": "Vilno",
               "country": "Litva",
@@ -207,7 +216,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-07-23"
           },
           {
             "lat": "50.0874654",
@@ -227,7 +237,8 @@
               "food": false,
               "photo": false,
               "nature": false
-            }
+            },
+            "date": "2023-07-26"
           }
         ]
       },

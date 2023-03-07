@@ -2,7 +2,13 @@ import "./Location.scss";
 import { Tooltip } from "@mui/material";
 import { useState } from "react";
 import { ClickAwayListener } from "@mui/base";
-import LocationTags from "./LocationTags/LocationTags";
+import TagsEditor from "./LocationTags/LocationTags";
+
+import dayjs from "dayjs";
+import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 
 import {
   HiArrowDown,
@@ -13,32 +19,55 @@ import {
 } from "react-icons/hi2";
 
 function Location(props) {
-  const location = props.location;
-  const index = props.index;
+  const {
+    location,
+    index,
+    count,
+    onListChange,
+    onDelete,
+    onMoveUp,
+    onMoveDown,
+  } = props;
 
   const [tagEdit, setTagEdit] = useState(false);
   const [noteEdit, setNoteEdit] = useState(false);
   const [note, setNote] = useState(location.note);
-
   const noteMaxLength = 50;
+
+  function dateEditHandler(newDate) {
+    onListChange(index, {
+      ...location,
+      date: newDate.format("YYYY-MM-DD"),
+    });
+  }
 
   function noteEditHandler() {
     setNoteEdit(false);
 
-    props.onListChange(index, {
+    onListChange(index, {
       ...location,
       note: note,
     });
   }
 
   function tagsEditHandler(newTags) {
-    props.onListChange(index, { ...location, tags: newTags });
+    onListChange(index, { ...location, tags: newTags });
   }
 
   return (
     <div className="location">
       <span>{index + 1 + "."}</span>
       <span>{location?.display_name}</span>
+
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+        <DemoContainer components={["DatePicker"]}>
+          <DatePicker
+            label="Pick a date"
+            value={dayjs(location.date)}
+            onChange={dateEditHandler}
+          />
+        </DemoContainer>
+      </LocalizationProvider>
 
       <Tooltip title="Note">
         <button
@@ -65,32 +94,32 @@ function Location(props) {
 
       <Tooltip title="Delete location">
         <button
-          onClick={() => props.onDelete(index)}
+          onClick={() => onDelete(index)}
           className="preview__button preview__delete"
         >
           <HiOutlineTrash size={24} />
         </button>
       </Tooltip>
-      {props.count > 1 && (
+      {count > 1 && (
         <div>
           {index === 0 ? (
             <></>
           ) : (
             <Tooltip title="Move Up">
               <button
-                onClick={() => props.onMoveUp(index)}
+                onClick={() => onMoveUp(index)}
                 className="preview__button"
               >
                 <HiArrowUp size={16} />
               </button>
             </Tooltip>
           )}
-          {index === props.count - 1 ? (
+          {index === count - 1 ? (
             <></>
           ) : (
             <Tooltip title="Move Down">
               <button
-                onClick={() => props.onMoveDown(index)}
+                onClick={() => onMoveDown(index)}
                 className="preview__button"
               >
                 <HiArrowDown size={16} />
@@ -118,7 +147,7 @@ function Location(props) {
             />
             <span
               className="location__note__chars"
-              //style={location.node.length > 100 && { color: "red" }}
+              style={note.length >= noteMaxLength ? { color: "#f05758" } : {}}
             >
               {`Characters ${note.length}/${noteMaxLength}`}
             </span>
@@ -130,7 +159,7 @@ function Location(props) {
         </div>
       )}
 
-      <LocationTags
+      <TagsEditor
         show={tagEdit}
         onHide={() => setTagEdit(false)}
         onTagsEdit={tagsEditHandler}

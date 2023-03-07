@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import dayjs from "dayjs";
 
 export class Trip {
   uuid;
@@ -34,6 +35,7 @@ export class Location {
   osm_id;
   note;
   tags;
+  date;
 
   #getName(address, display_name) {
     const country = address.country;
@@ -59,7 +61,7 @@ export class Location {
     this.address = address;
     this.place_id = place_id;
     this.osm_id = osm_id;
-    
+
     this.note = "";
     this.tags = {
       adventure: false,
@@ -68,5 +70,6 @@ export class Location {
       photo: false,
       nature: false,
     };
+    this.date = dayjs().format("YYYY-MM-DD");
   }
 }
