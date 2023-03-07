@@ -8,6 +8,7 @@ import {
   TimelineContent,
   TimelineDot,
 } from "@mui/lab";
+import { Typography } from "@mui/material";
 
 function TripTimeline(props) {
   return (
@@ -18,7 +19,12 @@ function TripTimeline(props) {
             <TimelineDot />
             {index !== props.locations.length - 1 && <TimelineConnector />}
           </TimelineSeparator>
-          <TimelineContent>{location.display_name}</TimelineContent>
+          <TimelineContent>
+            <Typography variant="h6" component="span">
+              <strong>{location.display_name}</strong>
+            </Typography>
+            <Typography>{location.note}</Typography>
+          </TimelineContent>
         </TimelineItem>
       ))}
     </Timeline>

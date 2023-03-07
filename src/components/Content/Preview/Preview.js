@@ -3,9 +3,13 @@ import "./Preview.scss";
 import PreviewHeader from "./PreviewHeader/PreviewHeader";
 import MapContainer from "./MapDisplay/MapDisplay";
 import SearchBox from "./SearchBox/SearchBox";
+<<<<<<< HEAD
 import LocationTree from "./LocationList/LocationList";
 
 import flags from "../../../data/flags.json";
+=======
+import LocationDisplay from "./LocationDisplay/LocationDisplay";
+>>>>>>> 3576cd37dc5f965af717fe982dd30406eda5b542
 
 function Preview(props) {
   function titleUpdateHandler(title, description) {
@@ -38,7 +42,7 @@ function Preview(props) {
       <PreviewHeader {...props.trip} onTitleUpdate={titleUpdateHandler} />
 
       <div className="preview__planner">
-        <LocationTree
+        <LocationDisplay
           locations={props.trip.locations}
           onListChange={listChangeHandler}
         />

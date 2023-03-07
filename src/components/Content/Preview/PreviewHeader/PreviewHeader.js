@@ -1,10 +1,10 @@
 import "./PreviewHeader.scss";
 import { useState, useEffect } from "react";
 
-import { TextareaAutosize } from "@mui/material";
+import { TextareaAutosize, Tooltip } from "@mui/material";
 
 import { HiOutlinePencil, HiOutlineTrash } from "react-icons/hi2";
-import { HiOutlineX } from "react-icons/hi";
+import { HiOutlineCheck } from "react-icons/hi";
 
 import { DeleteModal } from "../../../Custom/Modal/Modal";
 import { DeleteSnackbar } from "../../../Custom/Snackbar/Snackbar";
@@ -52,23 +52,27 @@ function PreviewHeader(props) {
           )}
           <div className="preview__controls">
             {isEditing && (
-              <button
-                onClick={() => setShowModal(true)}
-                className="preview__button preview__delete"
-              >
-                <HiOutlineTrash size={24} />
-              </button>
+              <Tooltip title="Delete trip">
+                <button
+                  onClick={() => setShowModal(true)}
+                  className="preview__button preview__delete"
+                >
+                  <HiOutlineTrash size={24} />
+                </button>
+              </Tooltip>
             )}
-            <button
-              onClick={isEditing ? editHandler : () => setIsEditing(true)}
-              className="preview__button"
-            >
-              {isEditing ? (
-                <HiOutlineX size={24} />
-              ) : (
-                <HiOutlinePencil size={24} />
-              )}
-            </button>
+            <Tooltip title={isEditing ? "Confirm" : "Edit"}>
+              <button
+                onClick={isEditing ? editHandler : () => setIsEditing(true)}
+                className="preview__button"
+              >
+                {isEditing ? (
+                  <HiOutlineCheck size={24} />
+                ) : (
+                  <HiOutlinePencil size={24} />
+                )}
+              </button>
+            </Tooltip>
           </div>
         </div>
         <div className="preview__description">

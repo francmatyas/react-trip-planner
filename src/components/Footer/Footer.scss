@@ -1,0 +1,21 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10000;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 8px;
+
+  #footer__demo {
+    color: #eee;
+    font-size: 12px;
+    margin-right: 8px;
+    a{
+      color: #007FFF;
+    }
+  }
+}

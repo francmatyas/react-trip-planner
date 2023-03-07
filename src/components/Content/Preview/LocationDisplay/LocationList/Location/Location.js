@@ -2,6 +2,7 @@ import "./Location.scss";
 import { Tooltip } from "@mui/material";
 import { useState } from "react";
 import { ClickAwayListener } from "@mui/base";
+import LocationTags from "./LocationTags/LocationTags";
 
 import {
   HiArrowDown,
@@ -24,10 +25,14 @@ function Location(props) {
   function noteEditHandler() {
     setNoteEdit(false);
 
-    props.onNoteChange(index, {
+    props.onListChange(index, {
       ...location,
       note: note,
     });
+  }
+
+  function tagsEditHandler(newTags) {
+    props.onListChange(index, { ...location, tags: newTags });
   }
 
   return (
@@ -58,10 +63,10 @@ function Location(props) {
         </button>
       </Tooltip>
 
-      <Tooltip title="Delete">
+      <Tooltip title="Delete location">
         <button
           onClick={() => props.onDelete(index)}
-          className="preview__button"
+          className="preview__button preview__delete"
         >
           <HiOutlineTrash size={24} />
         </button>
@@ -124,8 +129,14 @@ function Location(props) {
           <span>{note}</span>
         </div>
       )}
+
+      <LocationTags
+        show={tagEdit}
+        onHide={() => setTagEdit(false)}
+        onTagsEdit={tagsEditHandler}
+        tags={location.tags}
+      />
     </div>
   );
 }
-
 export default Location;

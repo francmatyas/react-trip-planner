@@ -1,6 +1,6 @@
 import "./SearchBox.scss";
 import { useState, useEffect, useRef } from "react";
-import { ClickAwayListener } from "@mui/material";
+import { ClickAwayListener, Tooltip } from "@mui/material";
 import { Location } from "../../../../script/TripUtils";
 
 import { HiOutlineSearch, HiOutlineLocationMarker } from "react-icons/hi";
@@ -66,9 +66,11 @@ function SearchBox(props) {
             placeholder="Find place"
             value={searchText}
           />
+          <Tooltip title="Search">
           <button className="preview__button" onClick={searchHandler}>
             <HiOutlineSearch size={24} />
           </button>
+          </Tooltip>
         </div>
 
         <div className="search-box__table">
