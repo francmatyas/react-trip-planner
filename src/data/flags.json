@@ -1,0 +1,1324 @@
+{
+  "af": {
+    "name": "Afganistan",
+    "code": "AF",
+    "flag": "https://img.icons8.com/color/512/afghanistan-flag-circle.png"
+  },
+  "al": {
+    "name": "Albania",
+    "code": "AL",
+    "flag": "https://img.icons8.com/color/512/albania-circular.png"
+  },
+  "dz": {
+    "name": "Algeria",
+    "code": "DZ",
+    "flag": "https://img.icons8.com/color/512/algeria-circular.png"
+  },
+  "as": {
+    "name": "American Samoa",
+    "code": "AS",
+    "flag": "https://img.icons8.com/color/512/american-samoa-circular.png"
+  },
+  "ad": {
+    "name": "Andorra",
+    "code": "AD",
+    "flag": "https://img.icons8.com/color/512/andora-circular.png"
+  },
+  "ao": {
+    "name": "Angola",
+    "code": "AO",
+    "flag": "https://img.icons8.com/color/512/angola-circular.png"
+  },
+  "ai": {
+    "name": "Anguilla",
+    "code": "AI",
+    "flag": "https://img.icons8.com/color/512/anguilla-circular.png"
+  },
+  "aq": {
+    "name": "Antarctica",
+    "code": "AQ",
+    "flag": "https://img.icons8.com/color/512/antarctica-circular.png"
+  },
+  "ag": {
+    "name": "Antigua and Barbuda",
+    "code": "AG",
+    "flag": "https://img.icons8.com/color/512/antigua-and-barbuda-circular.png"
+  },
+  "ar": {
+    "name": "Argentina",
+    "code": "AR",
+    "flag": "https://img.icons8.com/color/512/argentina-circular.png"
+  },
+  "am": {
+    "name": "Armenia",
+    "code": "AM",
+    "flag": "https://img.icons8.com/color/512/armenia-circular.png"
+  },
+  "aw": {
+    "name": "Aruba",
+    "code": "AW",
+    "flag": "https://img.icons8.com/color/512/aruba-circular.png"
+  },
+  "au": {
+    "name": "Australia",
+    "code": "AU",
+    "flag": "https://img.icons8.com/color/512/australia-circular.png"
+  },
+  "at": {
+    "name": "Austria",
+    "code": "AT",
+    "flag": "https://img.icons8.com/color/512/austria-circular.png"
+  },
+  "az": {
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "flag": "https://img.icons8.com/color/512/azerbaijan-circular.png"
+  },
+
+  "bs": {
+    "name": "Bahamas",
+    "code": "BS",
+    "flag": "https://img.icons8.com/color/512/bahamas-circular.png"
+  },
+  "bh": {
+    "name": "Bahrain",
+    "code": "BH",
+    "flag": "https://img.icons8.com/color/512/bahrain-circular.png"
+  },
+  "bd": {
+    "name": "Bangladesh",
+    "code": "BD",
+    "flag": "https://img.icons8.com/color/512/bangladesh-circular.png"
+  },
+  "bb": {
+    "name": "Barbados",
+    "code": "BB",
+    "flag": "https://img.icons8.com/color/512/barbados-circular.png"
+  },
+  "by": {
+    "name": "Belarus",
+    "code": "BY",
+    "flag": "https://img.icons8.com/color/512/belarus-circular.png"
+  },
+  "be": {
+    "name": "Belgium",
+    "code": "BE",
+    "flag": "https://img.icons8.com/color/512/belgium-circular.png"
+  },
+  "bz": {
+    "name": "Belize",
+    "code": "BZ",
+    "flag": "https://img.icons8.com/color/512/belize-circular.png"
+  },
+  "bj": {
+    "name": "Benin",
+    "code": "BJ",
+    "flag": "https://img.icons8.com/color/512/benin-circular.png"
+  },
+  "bm": {
+    "name": "Bermuda",
+    "code": "BM",
+    "flag": "https://img.icons8.com/color/512/bermuda-circular.png"
+  },
+  "bt": {
+    "name": "Bhutan",
+    "code": "BT",
+    "flag": "https://img.icons8.com/color/512/bhutan-circular.png"
+  },
+  "bo": {
+    "name": "Bolivia",
+    "code": "BO",
+    "flag": "https://img.icons8.com/color/512/bolivia-circular.png"
+  },
+  "ba": {
+    "name": "Bosnia and Herzegovina",
+    "code": "BA",
+    "flag": "https://img.icons8.com/color/512/bosnia-and-herzegovina-circular.png"
+  },
+
+  "bw": {
+    "name": "Botswana",
+    "code": "BW",
+    "flag": "https://img.icons8.com/color/512/botswana-circular.png"
+  },
+  "br": {
+    "name": "Brazil",
+    "code": "BR",
+    "flag": "https://img.icons8.com/color/512/brazil-circular.png"
+  },
+  "io": {
+    "name": "British Indian Ocean Territory",
+    "code": "IO",
+    "flag": "https://img.icons8.com/color/512/british-indian-ocean-territory-circular.png"
+  },
+  "bn": {
+    "name": "Brunei Darussalam",
+    "code": "BN",
+    "flag": "https://img.icons8.com/color/512/brunei-darussalam-circular.png"
+  },
+  "bg": {
+    "name": "Bulgaria",
+    "code": "BG",
+    "flag": "https://img.icons8.com/color/512/bulgaria-circular.png"
+  },
+  "bf": {
+    "name": "Burkina Faso",
+    "code": "BF",
+    "flag": "https://img.icons8.com/color/512/burkina-faso-circular.png"
+  },
+  "bi": {
+    "name": "Burundi",
+    "code": "BI",
+    "flag": "https://img.icons8.com/color/512/burundi-circular.png"
+  },
+
+  "kh": {
+    "name": "Cambodia",
+    "code": "KH",
+    "flag": "https://img.icons8.com/color/512/cambodia-circular.png"
+  },
+  "cm": {
+    "name": "Cameroon",
+    "code": "CM",
+    "flag": "https://img.icons8.com/color/512/cameroon-circular.png"
+  },
+  "ca": {
+    "name": "Canada",
+    "code": "CA",
+    "flag": "https://img.icons8.com/color/512/canada-circular.png"
+  },
+  "cv": {
+    "name": "Cape Verde",
+    "code": "CV",
+    "flag": "https://img.icons8.com/color/512/cape-verde-circular.png"
+  },
+  "ky": {
+    "name": "Cayman Islands",
+    "code": "KY",
+    "flag": "https://img.icons8.com/color/512/cayman-islands-circular.png"
+  },
+  "cf": {
+    "name": "Central African Republic",
+    "code": "CF",
+    "flag": "https://img.icons8.com/color/512/central-african-republic-circular.png"
+  },
+  "td": {
+    "name": "Chad",
+    "code": "TD",
+    "flag": "https://img.icons8.com/color/512/chad-circular.png"
+  },
+  "cl": {
+    "name": "Chile",
+    "code": "CL",
+    "flag": "https://img.icons8.com/color/512/chile-circular.png"
+  },
+  "cn": {
+    "name": "China",
+    "code": "CN",
+    "flag": "https://img.icons8.com/color/512/china-circular.png"
+  },
+  "cx": {
+    "name": "Christmas Island",
+    "code": "CX",
+    "flag": "https://img.icons8.com/color/512/christmas-island-circular.png"
+  },
+  "cc": {
+    "name": "Cocos (Keeling) Islands",
+    "code": "CC",
+    "flag": "https://img.icons8.com/color/512/cocos-keeling-islands-circular.png"
+  },
+  "co": {
+    "name": "Colombia",
+    "code": "CO",
+    "flag": "https://img.icons8.com/color/512/colombia-circular.png"
+  },
+  "km": {
+    "name": "Comoros",
+    "code": "KM",
+    "flag": "https://img.icons8.com/color/512/comoros-circular.png"
+  },
+  "cg": {
+    "name": "Congo",
+    "code": "CG",
+    "flag": "https://img.icons8.com/color/512/congo-circular.png"
+  },
+  "cd": {
+    "name": "Democratic Republic Congo",
+    "code": "CD",
+    "flag": "https://img.icons8.com/color/512/democratic-republic-congo-flag-circle.png"
+  },
+  "ck": {
+    "name": "Cook Islands",
+    "code": "CK",
+    "flag": "https://img.icons8.com/color/512/cook-islands-circular.png"
+  },
+  "cr": {
+    "name": "Costa Rica",
+    "code": "CR",
+    "flag": "https://img.icons8.com/color/512/casta-rica-circular.png"
+  },
+  "ci": {
+    "name": "Ivory Coast",
+    "code": "CI",
+    "flag": "https://img.icons8.com/color/512/ivory-coast-circular.png"
+  },
+  "hr": {
+    "name": "Croatia",
+    "code": "HR",
+    "flag": "https://img.icons8.com/color/512/croatia-circular.png"
+  },
+  "cu": {
+    "name": "Cuba",
+    "code": "CU",
+    "flag": "https://img.icons8.com/color/512/cuba-circular.png"
+  },
+  "cy": {
+    "name": "Cyprus",
+    "code": "CY",
+    "flag": "https://img.icons8.com/color/512/cyprus-circular.png"
+  },
+  "cz": {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "flag": "https://img.icons8.com/color/512/czech-republic-circular.png"
+  },
+  "dk": {
+    "name": "Denmark",
+    "code": "DK",
+    "flag": "https://img.icons8.com/color/512/denmark-circular.png"
+  },
+  "dj": {
+    "name": "Djibouti",
+    "code": "DJ",
+    "flag": "https://img.icons8.com/color/512/djibouti-circular.png"
+  },
+  "dm": {
+    "name": "Dominica",
+    "code": "DM",
+    "flag": "https://img.icons8.com/color/512/dominica-circular.png"
+  },
+  "do": {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "flag": "https://img.icons8.com/color/512/dominican-republic-circular.png"
+  },
+  "ec": {
+    "name": "Ecuador",
+    "code": "EC",
+    "flag": "https://img.icons8.com/color/512/ecuador-circular.png"
+  },
+
+  "eg": {
+    "name": "Egypt",
+    "code": "EG",
+    "flag": "https://img.icons8.com/color/512/egypt-circular.png"
+  },
+  "sv": {
+    "name": "El Salvador",
+    "code": "SV",
+    "flag": "https://img.icons8.com/color/512/el-salvador-circular.png"
+  },
+  "gq": {
+    "name": "Equatorial Guinea",
+    "code": "GQ",
+    "flag": "https://img.icons8.com/color/512/equatorial-guinea-circular.png"
+  },
+  "er": {
+    "name": "Eritrea",
+    "code": "ER",
+    "flag": "https://img.icons8.com/color/512/eritrea-circular.png"
+  },
+  "ee": {
+    "name": "Estonia",
+    "code": "EE",
+    "flag": "https://img.icons8.com/color/512/estonia-circular.png"
+  },
+  "et": {
+    "name": "Ethiopia",
+    "code": "ET",
+    "flag": "https://img.icons8.com/color/512/ethiopia-circular.png"
+  },
+  "fo": {
+    "name": "Faroe Islands",
+    "code": "FO",
+    "flag": "https://img.icons8.com/color/512/faroe-islands-circular.png"
+  },
+  "fj": {
+    "name": "Fiji",
+    "code": "FJ",
+    "flag": "https://img.icons8.com/color/512/fiji-circular.png"
+  },
+  "fi": {
+    "name": "Finland",
+    "code": "FI",
+    "flag": "https://img.icons8.com/color/512/finland-circular.png"
+  },
+  "fr": {
+    "name": "France",
+    "code": "FR",
+    "flag": "https://img.icons8.com/color/512/france-circular.png"
+  },
+  "pf": {
+    "name": "French Polynesia",
+    "code": "PF",
+    "flag": "https://img.icons8.com/color/512/french-polynesia-circular.png"
+  },
+  "ga": {
+    "name": "Gabon",
+    "code": "GA",
+    "flag": "https://img.icons8.com/color/512/gabon-circular.png"
+  },
+  "gm": {
+    "name": "Gambia",
+    "code": "GM",
+    "flag": "https://img.icons8.com/color/512/gambia-circular.png"
+  },
+  "ge": {
+    "name": "Georgia",
+    "code": "GE",
+    "flag": "https://img.icons8.com/color/512/georgia-circular.png"
+  },
+  "de": {
+    "name": "Germany",
+    "code": "DE",
+    "flag": "https://img.icons8.com/color/512/germany-circular.png"
+  },
+  "gh": {
+    "name": "Ghana",
+    "code": "GH",
+    "flag": "https://img.icons8.com/color/512/ghana-circular.png"
+  },
+  "gi": {
+    "name": "Gibraltar",
+    "code": "GI",
+    "flag": "https://img.icons8.com/color/512/gibraltar-circular.png"
+  },
+  "gr": {
+    "name": "Greece",
+    "code": "GR",
+    "flag": "https://img.icons8.com/color/512/greece-circular.png"
+  },
+  "gl": {
+    "name": "Greenland",
+    "code": "GL",
+    "flag": "https://img.icons8.com/color/512/greenland-circular.png"
+  },
+  "gd": {
+    "name": "Grenada",
+    "code": "GD",
+    "flag": "https://img.icons8.com/color/512/grenada-circular.png"
+  },
+  "gu": {
+    "name": "Guam",
+    "code": "GU",
+    "flag": "https://img.icons8.com/color/512/guam-circular.png"
+  },
+  "gt": {
+    "name": "Guatemala",
+    "code": "GT",
+    "flag": "https://img.icons8.com/color/512/guatemala-circular.png"
+  },
+  "gg": {
+    "name": "Guernsey",
+    "code": "GG",
+    "flag": "https://img.icons8.com/color/512/guernsey-circular.png"
+  },
+  "gn": {
+    "name": "Guinea",
+    "code": "GN",
+    "flag": "https://img.icons8.com/color/512/guinea-circular.png"
+  },
+  "gw": {
+    "name": "Guinea-Bissau",
+    "code": "GW",
+    "flag": "https://img.icons8.com/color/512/guinea-bissau-circular.png"
+  },
+  "gy": {
+    "name": "Guyana",
+    "code": "GY",
+    "flag": "https://img.icons8.com/color/512/guyana-circular.png"
+  },
+  "ht": {
+    "name": "The Republic Of Haiti",
+    "code": "HT",
+    "flag": "https://img.icons8.com/color/512/the-republic-of-haiti-circular.png"
+  },
+  "va": {
+    "name": "Holy See (Vatican City State)",
+    "code": "VA",
+    "flag": "https://img.icons8.com/color/512/holy-see-vatican-city-state-circular.png"
+  },
+  "hn": {
+    "name": "Honduras",
+    "code": "HN",
+    "flag": "https://img.icons8.com/color/512/honduras-circular.png"
+  },
+  "hk": {
+    "name": "Hong Kong",
+    "code": "HK",
+    "flag": "https://img.icons8.com/color/512/hong-kong-circular.png"
+  },
+  "hu": {
+    "name": "Hungary",
+    "code": "HU",
+    "flag": "https://img.icons8.com/color/512/hungary-circular.png"
+  },
+  "is": {
+    "name": "Iceland",
+    "code": "IS",
+    "flag": "https://img.icons8.com/color/512/iceland-circular.png"
+  },
+  "in": {
+    "name": "India",
+    "code": "IN",
+    "flag": "https://img.icons8.com/color/512/india-circular.png"
+  },
+  "id": {
+    "name": "Indonesia",
+    "code": "ID",
+    "flag": "https://img.icons8.com/color/512/indonesia-circular.png"
+  },
+  "ir": {
+    "name": "Iran, Islamic Republic Of",
+    "code": "IR",
+    "flag": "https://img.icons8.com/color/512/iran-circular.png"
+  },
+  "iq": {
+    "name": "Iraq",
+    "code": "IQ",
+    "flag": "https://img.icons8.com/color/512/iraq-circular.png"
+  },
+  "ie": {
+    "name": "Ireland",
+    "code": "IE",
+    "flag": "https://img.icons8.com/color/512/ireland-circular.png"
+  },
+
+  "im": {
+    "name": "Isle of Man",
+    "code": "IM",
+    "flag": "https://img.icons8.com/color/512/isle-of-man-circular.png"
+  },
+
+  "il": {
+    "name": "Israel",
+    "code": "IL",
+    "flag": "https://img.icons8.com/color/512/israel-circular.png"
+  },
+
+  "it": {
+    "name": "Italy",
+    "code": "IT",
+    "flag": "https://img.icons8.com/color/512/italy-circular.png"
+  },
+
+  "jm": {
+    "name": "Jamaica",
+    "code": "JM",
+    "flag": "https://img.icons8.com/color/512/jamaica-circular.png"
+  },
+
+  "jp": {
+    "name": "Japan",
+    "code": "JP",
+    "flag": "https://img.icons8.com/color/512/japan-circular.png"
+  },
+
+  "je": {
+    "name": "Jersey",
+    "code": "JE",
+    "flag": "https://img.icons8.com/color/512/jersey-circular.png"
+  },
+
+  "jo": {
+    "name": "Jordan",
+    "code": "JO",
+    "flag": "https://img.icons8.com/color/512/jordan-circular.png"
+  },
+
+  "kz": {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "flag": "https://img.icons8.com/color/512/kazakhstan-circular.png"
+  },
+
+  "ke": {
+    "name": "Kenya",
+    "code": "KE",
+    "flag": "https://img.icons8.com/color/512/kenya-circular.png"
+  },
+
+  "ki": {
+    "name": "Kiribati",
+    "code": "KI",
+    "flag": "https://img.icons8.com/color/512/kiribati-circular.png"
+  },
+
+  "kp": {
+    "name": "North Korea",
+    "code": "KP",
+    "flag": "https://img.icons8.com/color/512/north-korea-circular.png"
+  },
+
+  "kr": {
+    "name": "South Korea",
+    "code": "KR",
+    "flag": "https://img.icons8.com/color/512/south-korea-circular.png"
+  },
+
+  "kw": {
+    "name": "Kuwait",
+    "code": "KW",
+    "flag": "https://img.icons8.com/color/512/kuwait-circular.png"
+  },
+
+  "kg": {
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "flag": "https://img.icons8.com/color/512/kyrgyzstan-circular.png"
+  },
+
+  "la": {
+    "name": "Lao People's Democratic Republic",
+    "code": "LA",
+    "flag": "https://img.icons8.com/color/512/laos-circular.png"
+  },
+
+  "lv": {
+    "name": "Latvia",
+    "code": "LV",
+    "flag": "https://img.icons8.com/color/512/latvia-circular.png"
+  },
+
+  "lb": {
+    "name": "Lebanon",
+    "code": "LB",
+    "flag": "https://img.icons8.com/color/512/lebanon-circular.png"
+  },
+
+  "ls": {
+    "name": "Lesotho",
+    "code": "LS",
+    "flag": "https://img.icons8.com/color/512/lesotho-circular.png"
+  },
+
+  "lr": {
+    "name": "Liberia",
+    "code": "LR",
+    "flag": "https://img.icons8.com/color/512/liberia-circular.png"
+  },
+
+  "ly": {
+    "name": "Libya",
+    "code": "LY",
+    "flag": "https://img.icons8.com/color/512/libya-circular.png"
+  },
+
+  "li": {
+    "name": "Liechtenstein",
+    "code": "LI",
+    "flag": "https://img.icons8.com/color/512/liechtenstein-circular.png"
+  },
+
+  "lt": {
+    "name": "Lithuania",
+    "code": "LT",
+    "flag": "https://img.icons8.com/color/512/lithuania-circular.png"
+  },
+
+  "lu": {
+    "name": "Luxembourg",
+    "code": "LU",
+    "flag": "https://img.icons8.com/color/512/luxembourg-circular.png"
+  },
+
+  "mo": {
+    "name": "Macao",
+    "code": "MO",
+    "flag": "https://img.icons8.com/color/512/macao-circular.png"
+  },
+
+  "mk": {
+    "name": "Northen Macedonia",
+    "code": "MK",
+    "flag": "https://img.icons8.com/color/512/macedonia-circular.png"
+  },
+
+  "mg": {
+    "name": "Madagascar",
+    "code": "MG",
+    "flag": "https://img.icons8.com/color/512/madagascar-circular.png"
+  },
+
+  "mw": {
+    "name": "Malawi",
+    "code": "MW",
+    "flag": "https://img.icons8.com/color/512/malawi-circular.png"
+  },
+
+  "my": {
+    "name": "Malaysia",
+    "code": "MY",
+    "flag": "https://img.icons8.com/color/512/malaysia-circular.png"
+  },
+
+  "mv": {
+    "name": "Maldives",
+    "code": "MV",
+    "flag": "https://img.icons8.com/color/512/maldives-circular.png"
+  },
+
+  "ml": {
+    "name": "Mali",
+    "code": "ML",
+    "flag": "https://img.icons8.com/color/512/mali-circular.png"
+  },
+
+  "mt": {
+    "name": "Malta",
+    "code": "MT",
+    "flag": "https://img.icons8.com/color/512/malta-circular.png"
+  },
+
+  "mh": {
+    "name": "Marshall Islands",
+    "code": "MH",
+    "flag": "https://img.icons8.com/color/512/marshall-islands-circular.png"
+  },
+
+  "mq": {
+    "name": "Martinique",
+    "code": "MQ",
+    "flag": "https://img.icons8.com/color/512/martinique-circular.png"
+  },
+
+  "mr": {
+    "name": "Mauritania",
+    "code": "MR",
+    "flag": "https://img.icons8.com/color/512/mauritania-circular.png"
+  },
+
+  "mu": {
+    "name": "Mauritius",
+    "code": "MU",
+    "flag": "https://img.icons8.com/color/512/mauritius-circular.png"
+  },
+
+  "yt": {
+    "name": "Mayotte",
+    "code": "YT",
+    "flag": "https://img.icons8.com/color/512/mayotte-circular.png"
+  },
+
+  "mx": {
+    "name": "Mexico",
+    "code": "MX",
+    "flag": "https://img.icons8.com/color/512/mexico-circular.png"
+  },
+
+  "fm": {
+    "name": "Micronesia, Federated States of",
+    "code": "FM",
+    "flag": "https://img.icons8.com/color/512/micronesia-circular.png"
+  },
+
+  "md": {
+    "name": "Moldova, Republic of",
+    "code": "MD",
+    "flag": "https://img.icons8.com/color/512/moldova-circular.png"
+  },
+
+  "mc": {
+    "name": "Monaco",
+    "code": "MC",
+    "flag": "https://img.icons8.com/color/512/monaco-circular.png"
+  },
+
+  "mn": {
+    "name": "Mongolia",
+    "code": "MN",
+    "flag": "https://img.icons8.com/color/512/mongolia-circular.png"
+  },
+
+  "me": {
+    "name": "Montenegro",
+    "code": "ME",
+    "flag": "https://img.icons8.com/color/512/montenegro-circular.png"
+  },
+
+  "ms": {
+    "name": "Montserrat",
+    "code": "MS",
+    "flag": "https://img.icons8.com/color/512/montserrat-circular.png"
+  },
+
+  "ma": {
+    "name": "Morocco",
+    "code": "MA",
+    "flag": "https://img.icons8.com/color/512/morocco-circular.png"
+  },
+
+  "mz": {
+    "name": "Mozambique",
+    "code": "MZ",
+    "flag": "https://img.icons8.com/color/512/mozambique-circular.png"
+  },
+
+  "mm": {
+    "name": "Myanmar",
+    "code": "MM",
+    "flag": "https://img.icons8.com/color/512/myanmar-circular.png"
+  },
+
+  "na": {
+    "name": "Namibia",
+    "code": "NA",
+    "flag": "https://img.icons8.com/color/512/namibia-circular.png"
+  },
+
+  "nr": {
+    "name": "Nauru",
+    "code": "NR",
+    "flag": "https://img.icons8.com/color/512/nauru-circular.png"
+  },
+
+  "np": {
+    "name": "Nepal",
+    "code": "NP",
+    "flag": "https://img.icons8.com/color/512/nepal-circular.png"
+  },
+
+  "nl": {
+    "name": "Netherlands",
+    "code": "NL",
+    "flag": "https://img.icons8.com/color/512/netherlands-circular.png"
+  },
+
+  "nc": {
+    "name": "New Caledonia",
+    "code": "NC",
+    "flag": "https://img.icons8.com/color/512/new-caledonia-circular.png"
+  },
+
+  "nz": {
+    "name": "New Zealand",
+    "code": "NZ",
+    "flag": "https://img.icons8.com/color/512/new-zealand-circular.png"
+  },
+
+  "ni": {
+    "name": "Nicaragua",
+    "code": "NI",
+    "flag": "https://img.icons8.com/color/512/nicaragua-circular.png"
+  },
+
+  "ne": {
+    "name": "Niger",
+    "code": "NE",
+    "flag": "https://img.icons8.com/color/512/niger-circular.png"
+  },
+
+  "ng": {
+    "name": "Nigeria",
+    "code": "NG",
+    "flag": "https://img.icons8.com/color/512/nigeria-circular.png"
+  },
+
+  "nu": {
+    "name": "Niue",
+    "code": "NU",
+    "flag": "https://img.icons8.com/color/512/niue-circular.png"
+  },
+
+  "nf": {
+    "name": "Norfolk Island",
+    "code": "NF",
+    "flag": "https://img.icons8.com/color/512/norfolk-island-circular.png"
+  },
+
+  "mp": {
+    "name": "Northern Mariana Islands",
+    "code": "MP",
+    "flag": "https://img.icons8.com/color/512/northern-mariana-islands-circular.png"
+  },
+
+  "no": {
+    "name": "Norway",
+    "code": "NO",
+    "flag": "https://img.icons8.com/color/512/norway-circular.png"
+  },
+
+  "om": {
+    "name": "Oman",
+    "code": "OM",
+    "flag": "https://img.icons8.com/color/512/oman-circular.png"
+  },
+
+  "pk": {
+    "name": "Pakistan",
+    "code": "PK",
+    "flag": "https://img.icons8.com/color/512/pakistan-circular.png"
+  },
+
+  "pw": {
+    "name": "Palau",
+    "code": "PW",
+    "flag": "https://img.icons8.com/color/512/palau-circular.png"
+  },
+
+  "ps": {
+    "name": "Palestinian Territory, Occupied",
+    "code": "PS",
+    "flag": "https://img.icons8.com/color/512/palestinian-territory-circular.png"
+  },
+
+  "pa": {
+    "name": "Panama",
+    "code": "PA",
+    "flag": "https://img.icons8.com/color/512/panama-circular.png"
+  },
+
+  "pg": {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "flag": "https://img.icons8.com/color/512/papua-new-guinea-circular.png"
+  },
+
+  "py": {
+    "name": "Paraguay",
+    "code": "PY",
+    "flag": "https://img.icons8.com/color/512/paraguay-circular.png"
+  },
+
+  "pe": {
+    "name": "Peru",
+    "code": "PE",
+    "flag": "https://img.icons8.com/color/512/peru-circular.png"
+  },
+
+  "ph": {
+    "name": "Philippines",
+    "code": "PH",
+    "flag": "https://img.icons8.com/color/512/philippines-circular.png"
+  },
+
+  "pn": {
+    "name": "Pitcairn",
+    "code": "PN",
+    "flag": "https://img.icons8.com/color/512/pitcairn-circular.png"
+  },
+
+  "pl": {
+    "name": "Poland",
+    "code": "PL",
+    "flag": "https://img.icons8.com/color/512/poland-circular.png"
+  },
+
+  "pt": {
+    "name": "Portugal",
+    "code": "PT",
+    "flag": "https://img.icons8.com/color/512/portugal-circular.png"
+  },
+
+  "pr": {
+    "name": "Puerto Rico",
+    "code": "PR",
+    "flag": "https://img.icons8.com/color/512/puerto-rico-circular.png"
+  },
+
+  "qa": {
+    "name": "Qatar",
+    "code": "QA",
+    "flag": "https://img.icons8.com/color/512/qatar-circular.png"
+  },
+
+  "re": {
+    "name": "Reunion",
+    "code": "RE",
+    "flag": "https://img.icons8.com/color/512/reunion-circular.png"
+  },
+
+  "ro": {
+    "name": "Romania",
+    "code": "RO",
+    "flag": "https://img.icons8.com/color/512/romania-circular.png"
+  },
+
+  "ru": {
+    "name": "Russian Federation",
+    "code": "RU",
+    "flag": "https://img.icons8.com/color/512/russia-circular.png"
+  },
+
+  "rw": {
+    "name": "Rwanda",
+    "code": "RW",
+    "flag": "https://img.icons8.com/color/512/rwanda-circular.png"
+  },
+
+  "sh": {
+    "name": "Saint Helena",
+    "code": "SH",
+    "flag": "https://img.icons8.com/color/512/saint-helena-circular.png"
+  },
+
+  "kn": {
+    "name": "Saint Kitts and Nevis",
+    "code": "KN",
+    "flag": "https://img.icons8.com/color/512/saint-kitts-and-nevis-circular.png"
+  },
+
+  "lc": {
+    "name": "Saint Lucia",
+    "code": "LC",
+    "flag": "https://img.icons8.com/color/512/saint-lucia-circular.png"
+  },
+
+  "pm": {
+    "name": "Saint Pierre and Miquelon",
+    "code": "PM",
+    "flag": "https://img.icons8.com/color/512/saint-pierre-and-miquelon-circular.png"
+  },
+
+  "vc": {
+    "name": "Saint Vincent and the Grenadines",
+    "code": "VC",
+    "flag": "https://img.icons8.com/color/512/saint-vincent-and-the-grenadines-flag-circular.png"
+  },
+
+  "ws": {
+    "name": "Samoa",
+    "code": "WS",
+    "flag": "https://img.icons8.com/color/512/samoa-circular.png"
+  },
+
+  "sm": {
+    "name": "San Marino",
+    "code": "SM",
+    "flag": "https://img.icons8.com/color/512/san-marino-circular.png"
+  },
+
+  "st": {
+    "name": "Sao Tome and Principe",
+    "code": "ST",
+    "flag": "https://img.icons8.com/color/512/sao-tome-and-principe-circular.png"
+  },
+
+  "sa": {
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "flag": "https://img.icons8.com/color/512/saudi-arabia-circular.png"
+  },
+
+  "sn": {
+    "name": "Senegal",
+    "code": "SN",
+    "flag": "https://img.icons8.com/color/512/senegal-circular.png"
+  },
+
+  "rs": {
+    "name": "Serbia",
+    "code": "RS",
+    "flag": "https://img.icons8.com/color/512/sernia-circular.png"
+  },
+
+  "sc": {
+    "name": "Seychelles",
+    "code": "SC",
+    "flag": "https://img.icons8.com/color/512/seychelles-circular.png"
+  },
+
+  "sl": {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "flag": "https://img.icons8.com/color/512/sierra-leone-circular.png"
+  },
+
+  "sg": {
+    "name": "Singapore",
+    "code": "SG",
+    "flag": "https://img.icons8.com/color/512/singapore-circular.png"
+  },
+
+  "sk": {
+    "name": "Slovakia",
+    "code": "SK",
+    "flag": "https://img.icons8.com/color/512/slovakia-circular.png"
+  },
+
+  "si": {
+    "name": "Slovenia",
+    "code": "SI",
+    "flag": "https://img.icons8.com/color/512/slovenia-circular.png"
+  },
+
+  "sb": {
+    "name": "Solomon Islands",
+    "code": "SB",
+    "flag": "https://img.icons8.com/color/512/solomon-islands-circular.png"
+  },
+
+  "so": {
+    "name": "Somalia",
+    "code": "SO",
+    "flag": "https://img.icons8.com/color/512/somalia-circular.png"
+  },
+
+  "za": {
+    "name": "South Africa",
+    "code": "ZA",
+    "flag": "https://img.icons8.com/color/512/south-africa-circular.png"
+  },
+
+  "gs": {
+    "name": "South Georgia and the South Sandwich Islands",
+    "code": "GS",
+    "flag": "https://img.icons8.com/color/512/south-georgia-flag-circular.png"
+  },
+
+  "es": {
+    "name": "Spain",
+    "code": "ES",
+    "flag": "https://img.icons8.com/color/512/spain-circular.png"
+  },
+
+  "lk": {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "flag": "https://img.icons8.com/color/512/sri-lanka-circular.png"
+  },
+
+  "sd": {
+    "name": "Sudan",
+    "code": "SD",
+    "flag": "https://img.icons8.com/color/512/sudan-circular.png"
+  },
+
+  "sr": {
+    "name": "Suriname",
+    "code": "SR",
+    "flag": "https://img.icons8.com/color/512/suriname-circular.png"
+  },
+
+  "sj": {
+    "name": "Svalbard and Jan Mayen",
+    "code": "SJ",
+    "flag": "https://img.icons8.com/color/512/svalbard-and-jan-mayen-circular.png"
+  },
+
+  "sz": {
+    "name": "Swaziland",
+    "code": "SZ",
+    "flag": "https://img.icons8.com/color/512/swaziland-circular.png"
+  },
+
+  "se": {
+    "name": "Sweden",
+    "code": "SE",
+    "flag": "https://img.icons8.com/color/512/sweden-circular.png"
+  },
+
+  "ch": {
+    "name": "Switzerland",
+    "code": "CH",
+    "flag": "https://img.icons8.com/color/512/switzerland-circular.png"
+  },
+
+  "sy": {
+    "name": "Syria",
+    "code": "SY",
+    "flag": "https://img.icons8.com/color/512/syria-circular.png"
+  },
+
+  "tw": {
+    "name": "Taiwan",
+    "code": "TW",
+    "flag": "https://img.icons8.com/color/512/taiwan-circular.png"
+  },
+
+  "tj": {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "flag": "https://img.icons8.com/color/512/tajikistan-circular.png"
+  },
+
+  "tz": {
+    "name": "Tanzania, United Republic of",
+    "code": "TZ",
+    "flag": "https://img.icons8.com/color/512/tanzania-circular.png"
+  },
+
+  "th": {
+    "name": "Thailand",
+    "code": "TH",
+    "flag": "https://img.icons8.com/color/512/thailand-circular.png"
+  },
+
+  "tl": {
+    "name": "Timor-Leste",
+    "code": "TL",
+    "flag": "https://img.icons8.com/color/512/timor-leste-circular.png"
+  },
+
+  "tg": {
+    "name": "Togo",
+    "code": "TG",
+    "flag": "https://img.icons8.com/color/512/togo-circular.png"
+  },
+
+  "tk": {
+    "name": "Tokelau",
+    "code": "TK",
+    "flag": "https://img.icons8.com/color/512/tokelau-circular.png"
+  },
+
+  "to": {
+    "name": "Tonga",
+    "code": "TO",
+    "flag": "https://img.icons8.com/color/512/tonga-circular.png"
+  },
+
+  "tt": {
+    "name": "Trinidad and Tobago",
+    "code": "TT",
+    "flag": "https://img.icons8.com/color/512/trinidad-and-tobago-circular.png"
+  },
+
+  "tn": {
+    "name": "Tunisia",
+    "code": "TN",
+    "flag": "https://img.icons8.com/color/512/tunisia-circular.png"
+  },
+
+  "tr": {
+    "name": "Turkey",
+    "code": "TR",
+    "flag": "https://img.icons8.com/color/512/turkey-circular.png"
+  },
+
+  "tm": {
+    "name": "Turkmenistan",
+    "code": "TM",
+    "flag": "https://img.icons8.com/color/512/turkmenistan-circular.png"
+  },
+
+  "tc": {
+    "name": "Turks and Caicos Islands",
+    "code": "TC",
+    "flag": "https://img.icons8.com/color/512/turks-and-caicos-islands-circular.png"
+  },
+
+  "tv": {
+    "name": "Tuvalu",
+    "code": "TV",
+    "flag": "https://img.icons8.com/color/512/tuvalu-circular.png"
+  },
+
+  "ug": {
+    "name": "Uganda",
+    "code": "UG",
+    "flag": "https://img.icons8.com/color/512/uganda-circular.png"
+  },
+
+  "ua": {
+    "name": "Ukraine",
+    "code": "UA",
+    "flag": "https://img.icons8.com/color/512/ukraine-circular.png"
+  },
+
+  "ae": {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "flag": "https://img.icons8.com/color/512/united-arab-emirates-circular.png"
+  },
+
+  "gb": {
+    "name": "Great Britain",
+    "code": "GB",
+    "flag": "https://img.icons8.com/color/512/great-britain-circular.png"
+  },
+
+  "us": {
+    "name": "United States",
+    "code": "US",
+    "flag": "https://img.icons8.com/color/512/usa-circular.png"
+  },
+
+  "um": {
+    "name": "United States Minor Outlying Islands",
+    "code": "UM",
+    "flag": "https://img.icons8.com/color/512/united-states-minor-outlying-islands-flag-circular.png"
+  },
+
+  "uy": {
+    "name": "Uruguay",
+    "code": "UY",
+    "flag": "https://img.icons8.com/color/512/uruguay-circular.png"
+  },
+
+  "uz": {
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "flag": "https://img.icons8.com/color/512/uzbekistan-circular.png"
+  },
+
+  "vu": {
+    "name": "Vanuatu",
+    "code": "VU",
+    "flag": "https://img.icons8.com/color/512/vanuatu-circular.png"
+  },
+
+  "ve": {
+    "name": "Venezuela, Bolivarian Republic of",
+    "code": "VE",
+    "flag": "https://img.icons8.com/color/512/venezuela-circular.png"
+  },
+
+  "vn": {
+    "name": "Viet Nam",
+    "code": "VN",
+    "flag": "https://img.icons8.com/color/512/vietnam-circular.png"
+  },
+
+  "vg": {
+    "name": "British Virgin Islands",
+    "code": "VG",
+    "flag": "https://img.icons8.com/color/512/british-virgin-islands-circular.png"
+  },
+
+  "vi": {
+    "name": "Virgin Islands, U.S.",
+    "code": "VI",
+    "flag": "https://img.icons8.com/color/512/virgin-islands-us-circular.png"
+  },
+
+  "wf": {
+    "name": "Wallis and Futuna",
+    "code": "WF",
+    "flag": "https://img.icons8.com/color/512/wallis-and-futuna-circular.png"
+  },
+
+  "eh": {
+    "name": "Western Sahara",
+    "code": "EH",
+    "flag": "https://img.icons8.com/color/512/western-sahara-circular.png"
+  },
+
+  "yd": {
+    "name": "Yemen",
+    "code": "YD",
+    "flag": "https://img.icons8.com/color/512/yemen-circular.png"
+  },
+
+  "zm": {
+    "name": "Zambia",
+    "code": "ZM",
+    "flag": "https://img.icons8.com/color/512/zambia-circular.png"
+  },
+
+  "zw": {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "flag": "https://img.icons8.com/color/512/zimbabwe-circular.png"
+  }
+}
