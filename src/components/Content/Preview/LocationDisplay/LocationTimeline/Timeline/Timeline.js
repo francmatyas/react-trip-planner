@@ -15,6 +15,8 @@ import { Typography } from "@mui/material";
 
 function TripTimeline(props) {
   const { locations } = props;
+  
+  if (!locations) return null;
   return (
     <Timeline position="alternate">
       {locations.map((location, index) => {
@@ -38,13 +40,13 @@ function TripTimeline(props) {
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineDot variant="outlined" color="info">
+              <TimelineDot variant="outlined" color="primary">
                 <img alt={country_name} src={flag} width="24px" />
               </TimelineDot>
               {index !== locations.length - 1 && <TimelineConnector />}
             </TimelineSeparator>
             <TimelineContent>
-              <Typography variant="h6" component="span">
+              <Typography sx={!note ? { mt: "6px" } : {}} variant="h6">
                 <strong>{display_name}</strong>
               </Typography>
               <Typography>{note}</Typography>

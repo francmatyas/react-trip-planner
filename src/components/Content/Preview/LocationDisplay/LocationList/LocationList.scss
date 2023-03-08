@@ -6,17 +6,6 @@
   display: grid;
   grid-template-rows: min-content 1fr;
 
-  .location-list__title {
-    height: 4rem;
-    background-color: #393e46;
-    border-radius: 1rem;
-
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 1rem;
-    margin: 0;
-  }
-
   .location-list__list {
     padding: 3rem 2rem;
 
@@ -35,11 +24,6 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-    }
-
-    .location-list__empty {
-      color: #757575;
-      text-align: center;
     }
   }
 }

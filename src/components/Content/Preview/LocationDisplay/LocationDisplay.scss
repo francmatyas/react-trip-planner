@@ -1,5 +1,44 @@
 #location-display {
-    position: relative;
-  #location-display__edit{
+  height: min-content;
+  background-color: #393e46;
+  border-radius: 1rem;
+
+  display: grid;
+  grid-template-rows: min-content 1fr;
+
+  #location-display__header {
+    height: 4rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+
+    #location-display__switch {
+      justify-self: flex-start;
+
+      width: min-content;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #eee;
+    }
+
+    #location-display__edit {
+      margin-left: auto;
+    }
+  }
+
+  #location-display__body {
+    background-color: #31353c;
+    border-radius: 1rem;
+  }
+
+  #location-display__empty {
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: #31353c;
+    color: #757575;
+    text-align: center;
   }
 }

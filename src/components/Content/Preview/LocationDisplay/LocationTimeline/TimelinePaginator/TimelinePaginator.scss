@@ -1,4 +1,6 @@
 #timeline-paginator {
+  width: 40rem;
+  padding-top: 2rem;
   #timeline-paginator__header {
     display: flex;
     align-items: center;
@@ -6,7 +8,7 @@
     gap: 8px;
     
     .timeline-paginator__button {
-      min-width: 12rem;
+      width: 8rem;
       display: flex;
       align-items: center;
       flex-direction: row;
@@ -16,6 +18,17 @@
       background-color: transparent;
       color: #eee;
       font-size: 1rem;
+
+      &.timeline-paginator__button--disabled {
+        color: gray;
+      }
+
+      &#timeline-paginator__button--prev{
+        justify-content: flex-start;
+      }
+      &#timeline-paginator__button--next{
+        justify-content: flex-end;
+      }
     }
     #timeline-paginator__current {
       font-size: 1rem;

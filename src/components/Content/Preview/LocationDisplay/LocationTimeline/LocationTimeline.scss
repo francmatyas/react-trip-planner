@@ -1,6 +1,16 @@
 #location-timeline {
   #location-timeline__header {
+    #location-timeline__switch {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #eee;
+    }
   }
   #location-timeline__body {
-}
+    display: flex;
+    justify-content: center;
+  }
 }

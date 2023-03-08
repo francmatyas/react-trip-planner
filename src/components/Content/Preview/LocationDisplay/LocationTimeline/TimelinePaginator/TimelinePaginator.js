@@ -13,7 +13,11 @@ function TimelinePaginator(props) {
     <div id="timeline-paginator">
       <div id="timeline-paginator__header">
         <button
-          className="timeline-paginator__button"
+          className={
+            "timeline-paginator__button " +
+            (currentPage === 0 && "timeline-paginator__button--disabled")
+          }
+          id="timeline-paginator__button--prev"
           onClick={() => setCurrentPage(currentPage - 1)}
           disabled={currentPage === 0}
         >
@@ -27,7 +31,12 @@ function TimelinePaginator(props) {
         </span>
 
         <button
-          className="timeline-paginator__button"
+          className={
+            "timeline-paginator__button " +
+            (currentPage === pages.length - 1 &&
+              "timeline-paginator__button--disabled")
+          }
+          id="timeline-paginator__button--next"
           onClick={() => setCurrentPage(currentPage + 1)}
           disabled={currentPage === pages.length - 1}
         >
@@ -37,7 +46,7 @@ function TimelinePaginator(props) {
         </button>
       </div>
 
-      <div id="timeline-paginator__body">
+      <div className="timeline-paginator__body">
         <Timeline
           key={pages[currentPage]}
           locations={groups[pages[currentPage]]}
