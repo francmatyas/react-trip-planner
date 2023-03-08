@@ -1,5 +1,5 @@
 import "./Timeline.scss";
-import flags from "../../../../../data/flags.json";
+import flags from "../../../../../../data/flags.json";
 import dayjs from "dayjs";
 
 import {
@@ -14,9 +14,10 @@ import {
 import { Typography } from "@mui/material";
 
 function TripTimeline(props) {
+  const { locations } = props;
   return (
     <Timeline position="alternate">
-      {props.locations.map((location, index) => {
+      {locations.map((location, index) => {
         const {
           display_name,
           note,
@@ -37,10 +38,10 @@ function TripTimeline(props) {
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineDot variant="outlined" color="primary">
+              <TimelineDot variant="outlined" color="info">
                 <img alt={country_name} src={flag} width="24px" />
               </TimelineDot>
-              {index !== props.locations.length - 1 && <TimelineConnector />}
+              {index !== locations.length - 1 && <TimelineConnector />}
             </TimelineSeparator>
             <TimelineContent>
               <Typography variant="h6" component="span">

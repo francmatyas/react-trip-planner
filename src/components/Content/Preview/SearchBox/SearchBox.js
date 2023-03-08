@@ -83,14 +83,7 @@ function SearchBox(props) {
                   className="search-box__item"
                   key={result.osm_id}
                   onClick={() => {
-                    const location = new Location(
-                      result.lat,
-                      result.lon,
-                      result.display_name,
-                      result.address,
-                      result.place_id,
-                      result.osm_id
-                    );
+                    const location = Location.fromGeocodeResult(result);
                     props.onSearchSelect(location);
                     setSearchResults([]);
                     setSearchText("");

@@ -37,7 +37,7 @@ function Preview(props) {
 
       <div className="preview__planner">
         <LocationDisplay
-          locations={props.trip.locations}
+          trip={props.trip}
           onListChange={listChangeHandler}
         />
         <SearchBox onSearchSelect={searchSelectHandler} />

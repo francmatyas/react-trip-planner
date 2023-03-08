@@ -1,6 +1,7 @@
 import "./App.scss";
 import { useState } from "react";
 import { Account } from "./script/AccountUtils";
+import { Trip } from "./script/TripUtils";
 
 import Header from "./components/Header/Header";
 import Content from "./components/Content/Content";
@@ -27,7 +28,7 @@ function App() {
   const [trips, setTrips] = useState(accounts[0].trips);
   const [selectedTrip, setSelectedTrip] = useState(0);
 
-  console.log(trips);
+  console.log(trips[selectedTrip]);
 
   function loginHandler(email, password) {
     const account = accounts.find((account) => {
@@ -52,7 +53,7 @@ function App() {
   function updateTripHandler(updatedTrip) {
     setTrips((prevTrips) => {
       const newTrips = [...prevTrips];
-      newTrips[selectedTrip] = updatedTrip;
+      newTrips[selectedTrip] = Trip.fromObject(updatedTrip);
       return newTrips;
     });
   }
@@ -81,7 +82,7 @@ function App() {
             onSelect={(index) => setSelectedTrip(index)}
             onUpdate={updateTripHandler}
           />
-          <Footer/>
+          <Footer />
         </>
         {/*  )} */}
       </div>

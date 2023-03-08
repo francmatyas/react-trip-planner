@@ -5,10 +5,12 @@ import { Tooltip } from "@mui/material";
 import { HiOutlinePencil } from "react-icons/hi2";
 import { HiOutlineCheck } from "react-icons/hi";
 
-import Timeline from "./Timeline/Timeline";
+import LocationTimeline from "./LocationTimeline/LocationTimeline";
+import Timeline from "./LocationTimeline/Timeline/Timeline";
 import LocationList from "./LocationList/LocationList";
 
 function LocationDisplay(props) {
+  const {trip, onListChange} = props;
   const [isEditing, setIsEditing] = useState(false);
 
   return (
@@ -29,11 +31,11 @@ function LocationDisplay(props) {
 
       {isEditing ? (
         <LocationList
-          locations={props.locations}
-          onListChange={props.onListChange}
+          trip={trip}
+          onListChange={onListChange}
         />
       ) : (
-        <Timeline locations={props.locations} />
+        <LocationTimeline trip={trip} />
       )}
     </div>
   );

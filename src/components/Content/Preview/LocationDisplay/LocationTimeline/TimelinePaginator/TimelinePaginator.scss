@@ -1,0 +1,26 @@
+#timeline-paginator {
+  #timeline-paginator__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    
+    .timeline-paginator__button {
+      min-width: 12rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 8px;
+
+      border: none;
+      background-color: transparent;
+      color: #eee;
+      font-size: 1rem;
+    }
+    #timeline-paginator__current {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #eee;
+    }
+  }
+}
