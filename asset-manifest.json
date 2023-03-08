@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-trip-planner/static/css/main.68e6e12d.css",
-    "main.js": "/react-trip-planner/static/js/main.ef5fff21.js",
+    "main.css": "/react-trip-planner/static/css/main.ad410f46.css",
+    "main.js": "/react-trip-planner/static/js/main.0809e3f9.js",
     "static/js/787.89f5c3c2.chunk.js": "/react-trip-planner/static/js/787.89f5c3c2.chunk.js",
     "static/media/landscape3.jpg": "/react-trip-planner/static/media/landscape3.5ffdf1c2a88e5e403e7f.jpg",
     "index.html": "/react-trip-planner/index.html",
-    "main.68e6e12d.css.map": "/react-trip-planner/static/css/main.68e6e12d.css.map",
-    "main.ef5fff21.js.map": "/react-trip-planner/static/js/main.ef5fff21.js.map",
+    "main.ad410f46.css.map": "/react-trip-planner/static/css/main.ad410f46.css.map",
+    "main.0809e3f9.js.map": "/react-trip-planner/static/js/main.0809e3f9.js.map",
     "787.89f5c3c2.chunk.js.map": "/react-trip-planner/static/js/787.89f5c3c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68e6e12d.css",
-    "static/js/main.ef5fff21.js"
+    "static/css/main.ad410f46.css",
+    "static/js/main.0809e3f9.js"
   ]
 }
